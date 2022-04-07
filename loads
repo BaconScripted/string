@@ -1,0 +1,739 @@
+local mainFrame = Instance.new("Frame")
+local GuiOutput = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local frame1 = Instance.new("Frame")
+local welcome = Instance.new("TextLabel")
+local plr = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local frame2 = Instance.new("Frame")
+local text = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local text_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local frame3 = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local mm2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local banp = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local bedwars = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local st = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local jailbreak = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local bloxburg = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local babfat = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local amogus = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local spy = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local fruitblox = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local frame4 = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local m2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local stt = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local jail = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local bed = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local nin = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local burg = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local bab = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local gus = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local frublox = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local outPutSizeFrame = Instance.new("Frame")
+local Help = Instance.new("TextButton")
+local titlename = Instance.new("TextLabel")
+local Strings = Instance.new("TextLabel")
+local helpText = Instance.new("TextLabel")
+local OutputResult = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local outputText = Instance.new("TextButton")
+local gameOutputText = Instance.new("TextLabel")
+local guiOutputText = Instance.new("TextLabel")
+local GameOutput = Instance.new("ScrollingFrame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+
+--Properties:
+
+mainFrame.Name = "mainFrame"
+mainFrame.Parent = game.ReplicatedStorage
+mainFrame.Active = true
+mainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mainFrame.BackgroundTransparency = 0.400
+mainFrame.Position = UDim2.new(0.174479157, 0, 0.0397553667, 0)
+mainFrame.Size = UDim2.new(0, 500, 0, 300)
+mainFrame.ZIndex = 50
+
+GuiOutput.Name = "GuiOutput"
+GuiOutput.Parent = mainFrame
+GuiOutput.Active = true
+GuiOutput.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GuiOutput.Position = UDim2.new(0, 0, 1.06333339, 0)
+GuiOutput.Size = UDim2.new(0, 272, 0, 57)
+GuiOutput.CanvasSize = UDim2.new(0, 0, 100, 0)
+
+UIListLayout.Parent = GuiOutput
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 10)
+
+frame1.Name = "frame1"
+frame1.Parent = mainFrame
+frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame1.BackgroundTransparency = 1.000
+frame1.Position = UDim2.new(0.254000008, 0, 0.0766666681, 0)
+frame1.Size = UDim2.new(0, 373, 0, 277)
+
+welcome.Name = "welcome"
+welcome.Parent = frame1
+welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+welcome.BackgroundTransparency = 1.000
+welcome.Position = UDim2.new(0.230563, 0, 0.220216632, 0)
+welcome.Size = UDim2.new(0, 200, 0, 50)
+welcome.Font = Enum.Font.Nunito
+welcome.Text = ""
+welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+welcome.TextScaled = true
+welcome.TextSize = 14.000
+welcome.TextWrapped = true
+
+plr.Name = "plr"
+plr.Parent = frame1
+plr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+plr.BackgroundTransparency = 0.500
+plr.Position = UDim2.new(0.230563, 0, 0.407942206, 0)
+plr.Size = UDim2.new(0, 200, 0, 50)
+plr.Font = Enum.Font.SourceSans
+plr.Text = ""
+plr.TextColor3 = Color3.fromRGB(0, 0, 0)
+plr.TextScaled = true
+plr.TextSize = 14.000
+plr.TextWrapped = true
+
+UICorner.Parent = plr
+
+frame2.Name = "frame2"
+frame2.Parent = mainFrame
+frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame2.BackgroundTransparency = 1.000
+frame2.Position = UDim2.new(0.254000008, 0, 0.0766666681, 0)
+frame2.Size = UDim2.new(0, 373, 0, 277)
+frame2.Visible = false
+
+text.Name = "text"
+text.Parent = frame2
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1.000
+text.Position = UDim2.new(0.249329761, 0, 0.0180505421, 0)
+text.Size = UDim2.new(0, 200, 0, 37)
+text.Font = Enum.Font.SourceSans
+text.Text = "Hide gui"
+text.TextColor3 = Color3.fromRGB(255, 255, 255)
+text.TextScaled = true
+text.TextSize = 14.000
+text.TextWrapped = true
+
+TextBox.Parent = frame2
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.282520115, 0, 0.16196692, 0)
+TextBox.Size = UDim2.new(0, 175, 0, 28)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.PlaceholderText = "Letters Only"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+text_2.Name = "text"
+text_2.Parent = frame2
+text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text_2.BackgroundTransparency = 1.000
+text_2.Position = UDim2.new(0.246648788, 0, 0.324909747, 0)
+text_2.Size = UDim2.new(0, 200, 0, 37)
+text_2.Font = Enum.Font.SourceSans
+text_2.Text = "Destroy Gui"
+text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+text_2.TextScaled = true
+text_2.TextSize = 14.000
+text_2.TextWrapped = true
+
+TextButton.Parent = frame2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.279839158, 0, 0.48736462, 0)
+TextButton.Size = UDim2.new(0, 175, 0, 33)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Destroy"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+frame3.Name = "frame3"
+frame3.Parent = mainFrame
+frame3.Active = true
+frame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame3.BackgroundTransparency = 1.000
+frame3.Position = UDim2.new(0.266000003, 0, 0.0974555612, 0)
+frame3.Size = UDim2.new(0, 367, 0, 270)
+frame3.Visible = false
+frame3.ScrollBarThickness = 6
+
+UIGridLayout.Parent = frame3
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 67, 0, 67)
+
+mm2.Name = "mm2"
+mm2.Parent = frame3
+mm2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mm2.BackgroundTransparency = 0.300
+mm2.Position = UDim2.new(0.160857916, 0, 0.163333327, 0)
+mm2.Size = UDim2.new(0, 104, 0, 42)
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "Murderer Mystery 2"
+mm2.TextColor3 = Color3.fromRGB(0, 0, 0)
+mm2.TextScaled = true
+mm2.TextSize = 14.000
+mm2.TextWrapped = true
+
+UICorner_2.Parent = mm2
+
+banp.Name = "banp"
+banp.Parent = frame3
+banp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+banp.BackgroundTransparency = 0.300
+banp.Position = UDim2.new(0.160857916, 0, 0.163333327, 0)
+banp.Size = UDim2.new(0, 104, 0, 42)
+banp.Font = Enum.Font.SourceSans
+banp.Text = "Be A Ninja Parkour"
+banp.TextColor3 = Color3.fromRGB(0, 0, 0)
+banp.TextScaled = true
+banp.TextSize = 14.000
+banp.TextWrapped = true
+
+UICorner_3.Parent = banp
+
+bedwars.Name = "bedwars"
+bedwars.Parent = frame3
+bedwars.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bedwars.BackgroundTransparency = 0.300
+bedwars.Position = UDim2.new(0.160857916, 0, 0.163333327, 0)
+bedwars.Size = UDim2.new(0, 104, 0, 42)
+bedwars.Font = Enum.Font.SourceSans
+bedwars.Text = "Bed Wars"
+bedwars.TextColor3 = Color3.fromRGB(0, 0, 0)
+bedwars.TextScaled = true
+bedwars.TextSize = 14.000
+bedwars.TextWrapped = true
+
+UICorner_4.Parent = bedwars
+
+st.Name = "st"
+st.Parent = frame3
+st.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+st.BackgroundTransparency = 0.300
+st.Position = UDim2.new(0.525469184, 0, 0.163333327, 0)
+st.Size = UDim2.new(0, 104, 0, 42)
+st.Font = Enum.Font.SourceSans
+st.Text = "Steal Time"
+st.TextColor3 = Color3.fromRGB(0, 0, 0)
+st.TextScaled = true
+st.TextSize = 14.000
+st.TextWrapped = true
+
+UICorner_5.Parent = st
+
+jailbreak.Name = "jailbreak"
+jailbreak.Parent = frame3
+jailbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jailbreak.BackgroundTransparency = 0.300
+jailbreak.Position = UDim2.new(0.525469184, 0, 0.163333327, 0)
+jailbreak.Size = UDim2.new(0, 104, 0, 42)
+jailbreak.Font = Enum.Font.SourceSans
+jailbreak.Text = "Jail Break"
+jailbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+jailbreak.TextScaled = true
+jailbreak.TextSize = 14.000
+jailbreak.TextWrapped = true
+
+UICorner_6.Parent = jailbreak
+
+bloxburg.Name = "bloxburg"
+bloxburg.Parent = frame3
+bloxburg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bloxburg.BackgroundTransparency = 0.300
+bloxburg.Position = UDim2.new(0.525469184, 0, 0.163333327, 0)
+bloxburg.Size = UDim2.new(0, 104, 0, 42)
+bloxburg.Font = Enum.Font.SourceSans
+bloxburg.Text = "BLOX BURG"
+bloxburg.TextColor3 = Color3.fromRGB(0, 0, 0)
+bloxburg.TextScaled = true
+bloxburg.TextSize = 14.000
+bloxburg.TextWrapped = true
+
+UICorner_7.Parent = bloxburg
+
+babfat.Name = "babfat"
+babfat.Parent = frame3
+babfat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+babfat.BackgroundTransparency = 0.300
+babfat.Position = UDim2.new(0.525469184, 0, 0.163333327, 0)
+babfat.Size = UDim2.new(0, 104, 0, 42)
+babfat.Font = Enum.Font.SourceSans
+babfat.Text = "Build A Boat For A Treasure"
+babfat.TextColor3 = Color3.fromRGB(0, 0, 0)
+babfat.TextScaled = true
+babfat.TextSize = 14.000
+babfat.TextWrapped = true
+
+UICorner_8.Parent = babfat
+
+amogus.Name = "amogus"
+amogus.Parent = frame3
+amogus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amogus.BackgroundTransparency = 0.300
+amogus.Position = UDim2.new(0.525469184, 0, 0.163333327, 0)
+amogus.Size = UDim2.new(0, 104, 0, 42)
+amogus.Font = Enum.Font.SourceSans
+amogus.Text = "Among Us"
+amogus.TextColor3 = Color3.fromRGB(0, 0, 0)
+amogus.TextScaled = true
+amogus.TextSize = 14.000
+amogus.TextWrapped = true
+
+UICorner_9.Parent = amogus
+
+spy.Name = "spy"
+spy.Parent = frame3
+spy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+spy.BackgroundTransparency = 0.300
+spy.Position = UDim2.new(0.160857916, 0, 0.163333327, 0)
+spy.Size = UDim2.new(0, 104, 0, 42)
+spy.Font = Enum.Font.SourceSans
+spy.Text = "Remote Spy"
+spy.TextColor3 = Color3.fromRGB(0, 0, 0)
+spy.TextScaled = true
+spy.TextSize = 14.000
+spy.TextWrapped = true
+
+UICorner_10.Parent = spy
+
+fruitblox.Name = "fruitblox"
+fruitblox.Parent = frame3
+fruitblox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fruitblox.BackgroundTransparency = 0.300
+fruitblox.Position = UDim2.new(0.160857916, 0, 0.163333327, 0)
+fruitblox.Size = UDim2.new(0, 104, 0, 42)
+fruitblox.Font = Enum.Font.SourceSans
+fruitblox.Text = "Blox Fruit"
+fruitblox.TextColor3 = Color3.fromRGB(0, 0, 0)
+fruitblox.TextScaled = true
+fruitblox.TextSize = 14.000
+fruitblox.TextWrapped = true
+
+UICorner_11.Parent = fruitblox
+
+frame4.Name = "frame4"
+frame4.Parent = mainFrame
+frame4.Active = true
+frame4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame4.BackgroundTransparency = 1.000
+frame4.Position = UDim2.new(0.266000003, 0, 0.0974555612, 0)
+frame4.Size = UDim2.new(0, 367, 0, 270)
+frame4.Visible = false
+frame4.CanvasSize = UDim2.new(0, 0, 4, 50)
+frame4.ScrollBarThickness = 6
+
+UIListLayout_2.Parent = frame4
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 100)
+
+m2.Name = "m2"
+m2.Parent = frame4
+m2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+m2.BackgroundTransparency = 0.300
+m2.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+m2.Size = UDim2.new(0, 104, 0, 42)
+m2.Font = Enum.Font.SourceSans
+m2.Text = "Teleport"
+m2.TextColor3 = Color3.fromRGB(0, 0, 0)
+m2.TextScaled = true
+m2.TextSize = 14.000
+m2.TextWrapped = true
+
+UICorner_12.Parent = m2
+
+TextLabel.Parent = m2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.PermanentMarker
+TextLabel.Text = "Murderer Mystery 2"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+stt.Name = "stt"
+stt.Parent = frame4
+stt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stt.BackgroundTransparency = 0.300
+stt.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+stt.Size = UDim2.new(0, 104, 0, 42)
+stt.Font = Enum.Font.SourceSans
+stt.Text = "Teleport"
+stt.TextColor3 = Color3.fromRGB(0, 0, 0)
+stt.TextScaled = true
+stt.TextSize = 14.000
+stt.TextWrapped = true
+
+UICorner_13.Parent = stt
+
+TextLabel_2.Parent = stt
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.PermanentMarker
+TextLabel_2.Text = "Steal Time"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+jail.Name = "jail"
+jail.Parent = frame4
+jail.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jail.BackgroundTransparency = 0.300
+jail.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+jail.Size = UDim2.new(0, 104, 0, 42)
+jail.Font = Enum.Font.SourceSans
+jail.Text = "Teleport"
+jail.TextColor3 = Color3.fromRGB(0, 0, 0)
+jail.TextScaled = true
+jail.TextSize = 14.000
+jail.TextWrapped = true
+
+UICorner_14.Parent = jail
+
+TextLabel_3.Parent = jail
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.PermanentMarker
+TextLabel_3.Text = "JailBreak"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+bed.Name = "bed"
+bed.Parent = frame4
+bed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bed.BackgroundTransparency = 0.300
+bed.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+bed.Size = UDim2.new(0, 104, 0, 42)
+bed.Font = Enum.Font.SourceSans
+bed.Text = "Teleport"
+bed.TextColor3 = Color3.fromRGB(0, 0, 0)
+bed.TextScaled = true
+bed.TextSize = 14.000
+bed.TextWrapped = true
+
+UICorner_15.Parent = bed
+
+TextLabel_4.Parent = bed
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.PermanentMarker
+TextLabel_4.Text = "Bedwars"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+nin.Name = "nin"
+nin.Parent = frame4
+nin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nin.BackgroundTransparency = 0.300
+nin.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+nin.Size = UDim2.new(0, 104, 0, 42)
+nin.Font = Enum.Font.SourceSans
+nin.Text = "Teleport"
+nin.TextColor3 = Color3.fromRGB(0, 0, 0)
+nin.TextScaled = true
+nin.TextSize = 14.000
+nin.TextWrapped = true
+
+UICorner_16.Parent = nin
+
+TextLabel_5.Parent = nin
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.PermanentMarker
+TextLabel_5.Text = "Be A Ninja Parkour"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+burg.Name = "burg"
+burg.Parent = frame4
+burg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+burg.BackgroundTransparency = 0.300
+burg.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+burg.Size = UDim2.new(0, 104, 0, 42)
+burg.Font = Enum.Font.SourceSans
+burg.Text = "Teleport"
+burg.TextColor3 = Color3.fromRGB(0, 0, 0)
+burg.TextScaled = true
+burg.TextSize = 14.000
+burg.TextWrapped = true
+
+UICorner_17.Parent = burg
+
+TextLabel_6.Parent = burg
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.PermanentMarker
+TextLabel_6.Text = "Blox Burg"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+bab.Name = "bab"
+bab.Parent = frame4
+bab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bab.BackgroundTransparency = 0.300
+bab.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+bab.Size = UDim2.new(0, 104, 0, 42)
+bab.Font = Enum.Font.SourceSans
+bab.Text = "Teleport"
+bab.TextColor3 = Color3.fromRGB(0, 0, 0)
+bab.TextScaled = true
+bab.TextSize = 14.000
+bab.TextWrapped = true
+
+UICorner_18.Parent = bab
+
+TextLabel_7.Parent = bab
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.PermanentMarker
+TextLabel_7.Text = "Build A Boat For A Treasure"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+gus.Name = "gus"
+gus.Parent = frame4
+gus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gus.BackgroundTransparency = 0.300
+gus.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+gus.Size = UDim2.new(0, 104, 0, 42)
+gus.Font = Enum.Font.SourceSans
+gus.Text = "Teleport"
+gus.TextColor3 = Color3.fromRGB(0, 0, 0)
+gus.TextScaled = true
+gus.TextSize = 14.000
+gus.TextWrapped = true
+
+UICorner_19.Parent = gus
+
+TextLabel_8.Parent = gus
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Font = Enum.Font.PermanentMarker
+TextLabel_8.Text = "Among Us"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+frublox.Name = "frublox"
+frublox.Parent = frame4
+frublox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frublox.BackgroundTransparency = 0.300
+frublox.Position = UDim2.new(0.530918777, 0, 0.163333327, 0)
+frublox.Size = UDim2.new(0, 104, 0, 42)
+frublox.Font = Enum.Font.SourceSans
+frublox.Text = "Teleport"
+frublox.TextColor3 = Color3.fromRGB(0, 0, 0)
+frublox.TextScaled = true
+frublox.TextSize = 14.000
+frublox.TextWrapped = true
+
+UICorner_20.Parent = frublox
+
+TextLabel_9.Parent = frublox
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(-0.461538464, 0, 1, 0)
+TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_9.Font = Enum.Font.PermanentMarker
+TextLabel_9.Text = "Blox Fruit"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+outPutSizeFrame.Name = "outPutSizeFrame"
+outPutSizeFrame.Parent = mainFrame
+outPutSizeFrame.Active = true
+outPutSizeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+outPutSizeFrame.BackgroundTransparency = 0.300
+outPutSizeFrame.Position = UDim2.new(-0.65199995, 0, 0.166666657, 0)
+outPutSizeFrame.Size = UDim2.new(0, 271, 0, 271)
+outPutSizeFrame.Visible = false
+
+Help.Name = "Help"
+Help.Parent = outPutSizeFrame
+Help.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Help.Position = UDim2.new(0.84870851, 0, 0, 0)
+Help.Size = UDim2.new(0, 40, 0, 40)
+Help.Font = Enum.Font.SourceSans
+Help.Text = ""
+Help.TextColor3 = Color3.fromRGB(255, 255, 255)
+Help.TextScaled = true
+Help.TextSize = 14.000
+Help.TextWrapped = true
+
+titlename.Name = "titlename"
+titlename.Parent = outPutSizeFrame
+titlename.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+titlename.BackgroundTransparency = 0.500
+titlename.Size = UDim2.new(0, 230, 0, 40)
+titlename.Font = Enum.Font.SourceSans
+titlename.Text = ""
+titlename.TextColor3 = Color3.fromRGB(0, 0, 0)
+titlename.TextScaled = true
+titlename.TextSize = 14.000
+titlename.TextWrapped = true
+
+Strings.Name = "Strings"
+Strings.Parent = outPutSizeFrame
+Strings.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Strings.Position = UDim2.new(0, 0, 0.176605165, 0)
+Strings.Size = UDim2.new(0, 270, 0, 223)
+Strings.Font = Enum.Font.RobotoMono
+Strings.Text = ""
+Strings.TextColor3 = Color3.fromRGB(255, 255, 127)
+Strings.TextScaled = true
+Strings.TextSize = 14.000
+Strings.TextWrapped = true
+
+helpText.Name = "helpText"
+helpText.Parent = outPutSizeFrame
+helpText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+helpText.Position = UDim2.new(0, 0, 0.176605165, 0)
+helpText.Size = UDim2.new(0, 270, 0, 223)
+helpText.Visible = false
+helpText.Font = Enum.Font.LuckiestGuy
+helpText.Text = ""
+helpText.TextColor3 = Color3.fromRGB(255, 255, 127)
+helpText.TextScaled = true
+helpText.TextSize = 14.000
+helpText.TextWrapped = true
+
+OutputResult.Name = "OutputResult"
+OutputResult.Parent = mainFrame
+OutputResult.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+OutputResult.BackgroundTransparency = 0.500
+OutputResult.Position = UDim2.new(0.131999999, 0, 0, 0)
+OutputResult.Size = UDim2.new(0, 139, 0, 35)
+OutputResult.Visible = false
+OutputResult.Font = Enum.Font.RobotoCondensed
+OutputResult.Text = ""
+OutputResult.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutputResult.TextScaled = true
+OutputResult.TextSize = 14.000
+OutputResult.TextWrapped = true
+
+UICorner_21.Parent = OutputResult
+
+outputText.Name = "outputText"
+outputText.Parent = mainFrame
+outputText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+outputText.Position = UDim2.new(0.425999999, 0, 1, 0)
+outputText.Size = UDim2.new(0, 107, 0, 19)
+outputText.Font = Enum.Font.RobotoCondensed
+outputText.Text = ""
+outputText.TextColor3 = Color3.fromRGB(255, 255, 255)
+outputText.TextScaled = true
+outputText.TextSize = 14.000
+outputText.TextWrapped = true
+
+gameOutputText.Name = "gameOutputText"
+gameOutputText.Parent = mainFrame
+gameOutputText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gameOutputText.Position = UDim2.new(0.639999986, 0, 1, 0)
+gameOutputText.Size = UDim2.new(0, 179, 0, 19)
+gameOutputText.Font = Enum.Font.RobotoCondensed
+gameOutputText.Text = ""
+gameOutputText.TextColor3 = Color3.fromRGB(255, 255, 255)
+gameOutputText.TextScaled = true
+gameOutputText.TextSize = 14.000
+gameOutputText.TextWrapped = true
+
+guiOutputText.Name = "guiOutputText"
+guiOutputText.Parent = mainFrame
+guiOutputText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+guiOutputText.Position = UDim2.new(0, 0, 1, 0)
+guiOutputText.Size = UDim2.new(0, 213, 0, 19)
+guiOutputText.Font = Enum.Font.RobotoCondensed
+guiOutputText.Text = ""
+guiOutputText.TextColor3 = Color3.fromRGB(255, 255, 255)
+guiOutputText.TextScaled = true
+guiOutputText.TextSize = 14.000
+guiOutputText.TextWrapped = true
+
+GameOutput.Name = "GameOutput"
+GameOutput.Parent = mainFrame
+GameOutput.Active = true
+GameOutput.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GameOutput.Position = UDim2.new(0.54400003, 0, 1.06333339, 0)
+GameOutput.Size = UDim2.new(0, 227, 0, 57)
+GameOutput.CanvasSize = UDim2.new(0, 0, 100, 0)
+GameOutput.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+UIListLayout_3.Parent = GameOutput
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 10)
