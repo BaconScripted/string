@@ -1,0 +1,12 @@
+local key = loadstring(game:HttpGet('https://pastebin.com/raw/ekBTTmy0'))()
+local plr = game.Players.LocalPlayer
+
+local tru = false
+for i,v in pairs(key) do
+	if v == plr.UserId then
+		tru = true
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/loads'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/key'))()
+		game.ReplicatedStorage:WaitForChild("mainFrame").Parent = script.Parent.Parent.HsaSfd
+	end
+end
