@@ -1,3 +1,9 @@
+--[[
+
+MrBacon Scripted
+
+]]
+
 local MrBaconScripted = Instance.new("ScreenGui")
 local Scripted = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -587,7 +593,7 @@ UIGradient.Parent = MrBaconScripted
 
 -- Scripts:
 
-local function KJCLN_fake_script() -- MrBaconScripted.configure 
+local function EIOOFAY_fake_script() -- MrBaconScripted.configure 
 	local script = Instance.new('LocalScript', MrBaconScripted)
 
 	script.Parent.Scripted.Visible = false
@@ -643,13 +649,60 @@ local function KJCLN_fake_script() -- MrBaconScripted.configure
 	soundtrack2.SoundId = "rbxassetid://5852470908"
 	local valueOFn = Instance.new("BoolValue")
 	valueOFn.Parent = scripted.settingsFrame
+	local autoFn = Instance.new("BoolValue")
+	autoFn.Parent = scripted.settingsFrame
 	scripted.settingsFrame.turns.MouseButton1Click:Connect(function()
 		local value = scripted.settingsFrame.Value
 		value = not value
 	end)
 	scripted.settingsFrame.auto.MouseButton1Click:Connect(function()
-		scripted.settingsFrame.autoN.Text = "ON"
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/autoExecute'))
+		local fn = autoFn
+		autoFn.Value = not autoFn.Value
+	end)
+	autoFn.Changed:Connect(function()
+		if autoFn.Value == false then
+			scripted.settingsFrame.autoN.Text = "OFF"
+		end
+		if autoFn.Value == true then
+			scripted.settingsFrame.autoN.Text = "ON"
+			-- bloxburg
+			if game.PlaceId == 185655149 then
+				loadstring(game:HttpGet('https://pastebin.com/raw/t5Tu7ncr'))()
+			end
+			-- bloxfruits
+			if game.PlaceId == 2753915549 then
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+			end
+			-- babfat
+			if game.PlaceId == 537413528 then
+				loadstring(game:HttpGet('https://pastebin.com/6qa5sGJZ'))()
+			end
+			-- jailbreak
+			if game.PlaceId == 606849621 then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+			end
+			-- among us
+			if game.PlaceId == 5721826509 then
+				loadstring(game:HttpGet('https://pastebin.com/raw/YhbdBRiw'))()
+			end
+			-- bedwars
+			if game.PlaceId == 6872265039 then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+			end
+			-- be a ninja parkour
+			if game.PlaceId == 147848991 then
+				loadstring(game:HttpGet('https://pastebin.com/raw/CzdR6iTy'))()
+			end
+			-- steal time
+			if game.PlaceId == 6361937392 then
+				_G.Dist = 20
+				loadstring(game:HttpGet('https://pastebin.com/raw/FZx4qXUN'))()
+			end
+			-- anime fighters
+			if game.PlaceId == 6299805723 then
+				loadstring(game:HttpGet(('https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua')))()
+			end
+		end
 	end)
 	valueOFn.Changed:Connect(function()
 		if valueOFn.Value == false then
@@ -930,4 +983,4 @@ local function KJCLN_fake_script() -- MrBaconScripted.configure
 		wait(.1)
 	end
 end
-coroutine.wrap(KJCLN_fake_script)()
+coroutine.wrap(EIOOFAY_fake_script)()
