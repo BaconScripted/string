@@ -1,0 +1,953 @@
+local MrBaconScripted = Instance.new("ScreenGui")
+local Scripted = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local playerFrame = Instance.new("ScrollingFrame")
+local info = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local settingsFrame = Instance.new("ScrollingFrame")
+local soundText = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local turns = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local keybinds = Instance.new("TextBox")
+local UICorner_5 = Instance.new("UICorner")
+local enter = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local rejoin = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local textTurned = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local transparent = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
+local set = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local auto = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local autoN = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local stringsFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local bedwars = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local amongUs = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local RemoteSpy = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local stealTime = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local bloxBurg = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local bloxFruit = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local jailBreak = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local ninjaparkour = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local buildAboat = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local animeFighter = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local outputsFrame = Instance.new("ScrollingFrame")
+local buttons = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local player = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local settings = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local strings = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local outputs = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local teleports = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local background = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local textMaking = Instance.new("TextLabel")
+local TextTitle = Instance.new("TextLabel")
+local rainBow = Instance.new("UIGradient")
+local teleportsFrame = Instance.new("ScrollingFrame")
+local Title = Instance.new("TextLabel")
+local UICorner_29 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+
+--Properties:
+
+MrBaconScripted.Name = "MrBaconScripted"
+MrBaconScripted.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MrBaconScripted.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MrBaconScripted.ResetOnSpawn = false
+
+Scripted.Name = "Scripted"
+Scripted.Parent = MrBaconScripted
+Scripted.Active = true
+Scripted.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scripted.Position = UDim2.new(0.239583328, 0, 0.178021997, 0)
+Scripted.Size = UDim2.new(0, 400, 0, 250)
+
+UICorner.Parent = Scripted
+
+playerFrame.Name = "playerFrame"
+playerFrame.Parent = Scripted
+playerFrame.Active = true
+playerFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+playerFrame.BorderSizePixel = 0
+playerFrame.Position = UDim2.new(0.389999986, 0, 0.136000007, 0)
+playerFrame.Size = UDim2.new(0, 244, 0, 216)
+playerFrame.Visible = false
+playerFrame.CanvasSize = UDim2.new(0, 0, 1, 0)
+playerFrame.ScrollBarThickness = 0
+playerFrame.ScrollingEnabled = false
+
+info.Name = "info"
+info.Parent = playerFrame
+info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+info.BackgroundTransparency = 1.000
+info.Size = UDim2.new(0, 244, 0, 216)
+info.Font = Enum.Font.Oswald
+info.Text = ""
+info.TextColor3 = Color3.fromRGB(255, 255, 255)
+info.TextScaled = true
+info.TextSize = 14.000
+info.TextWrapped = true
+
+X.Name = "X"
+X.Parent = Scripted
+X.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+X.Position = UDim2.new(0.930000007, 0, 0, 0)
+X.Size = UDim2.new(0, 28, 0, 28)
+X.Font = Enum.Font.Highway
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+
+UICorner_2.Parent = X
+
+settingsFrame.Name = "settingsFrame"
+settingsFrame.Parent = Scripted
+settingsFrame.Active = true
+settingsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+settingsFrame.BorderSizePixel = 0
+settingsFrame.Position = UDim2.new(0.389999986, 0, 0.136000007, 0)
+settingsFrame.Size = UDim2.new(0, 244, 0, 216)
+settingsFrame.Visible = false
+settingsFrame.ScrollBarThickness = 0
+
+soundText.Name = "soundText"
+soundText.Parent = settingsFrame
+soundText.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+soundText.Size = UDim2.new(0, 244, 0, 17)
+soundText.Font = Enum.Font.Nunito
+soundText.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+soundText.PlaceholderText = "Insert Button Sound Id"
+soundText.Text = ""
+soundText.TextColor3 = Color3.fromRGB(255, 255, 255)
+soundText.TextScaled = true
+soundText.TextSize = 14.000
+soundText.TextWrapped = true
+
+UICorner_3.Parent = soundText
+
+turns.Name = "turns"
+turns.Parent = settingsFrame
+turns.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+turns.Position = UDim2.new(0.361311436, 0, 0.0339999944, 0)
+turns.Size = UDim2.new(0, 80, 0, 22)
+turns.Font = Enum.Font.Nunito
+turns.Text = "Sound is"
+turns.TextColor3 = Color3.fromRGB(255, 255, 255)
+turns.TextScaled = true
+turns.TextSize = 14.000
+turns.TextWrapped = true
+
+UICorner_4.Parent = turns
+
+keybinds.Name = "keybinds"
+keybinds.Parent = settingsFrame
+keybinds.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+keybinds.Position = UDim2.new(0, 0, 0.0900000036, 0)
+keybinds.Size = UDim2.new(0, 244, 0, 17)
+keybinds.Font = Enum.Font.Nunito
+keybinds.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+keybinds.PlaceholderText = "Letter Keybind"
+keybinds.Text = ""
+keybinds.TextColor3 = Color3.fromRGB(255, 255, 255)
+keybinds.TextScaled = true
+keybinds.TextSize = 14.000
+keybinds.TextWrapped = true
+
+UICorner_5.Parent = keybinds
+
+enter.Name = "enter"
+enter.Parent = settingsFrame
+enter.BackgroundColor3 = Color3.fromRGB(85, 170, 0)
+enter.Position = UDim2.new(-0.00344264507, 0, 0.0339999944, 0)
+enter.Size = UDim2.new(0, 80, 0, 22)
+enter.Font = Enum.Font.Nunito
+enter.Text = "Enter"
+enter.TextColor3 = Color3.fromRGB(255, 255, 255)
+enter.TextScaled = true
+enter.TextSize = 14.000
+enter.TextWrapped = true
+
+UICorner_6.Parent = enter
+
+rejoin.Name = "rejoin"
+rejoin.Parent = settingsFrame
+rejoin.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+rejoin.Position = UDim2.new(-0.00300000003, 0, 0.139999986, 0)
+rejoin.Size = UDim2.new(0, 244, 0, 17)
+rejoin.Font = Enum.Font.SourceSans
+rejoin.Text = "rejoin button"
+rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
+rejoin.TextScaled = true
+rejoin.TextSize = 14.000
+rejoin.TextWrapped = true
+
+UICorner_7.Parent = rejoin
+
+textTurned.Name = "textTurned"
+textTurned.Parent = settingsFrame
+textTurned.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textTurned.Position = UDim2.new(0.689549208, 0, 0.0320800096, 0)
+textTurned.Size = UDim2.new(0, 75, 0, 22)
+textTurned.Font = Enum.Font.SourceSans
+textTurned.Text = "OFF"
+textTurned.TextColor3 = Color3.fromRGB(0, 0, 0)
+textTurned.TextScaled = true
+textTurned.TextSize = 14.000
+textTurned.TextWrapped = true
+
+UICorner_8.Parent = textTurned
+
+transparent.Name = "transparent"
+transparent.Parent = settingsFrame
+transparent.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+transparent.Position = UDim2.new(0, 0, 0.194000006, 0)
+transparent.Size = UDim2.new(0, 244, 0, 17)
+transparent.Font = Enum.Font.Nunito
+transparent.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+transparent.PlaceholderText = "Set Transparent"
+transparent.Text = ""
+transparent.TextColor3 = Color3.fromRGB(255, 255, 255)
+transparent.TextScaled = true
+transparent.TextSize = 14.000
+transparent.TextWrapped = true
+
+UICorner_9.Parent = transparent
+
+set.Name = "set"
+set.Parent = settingsFrame
+set.BackgroundColor3 = Color3.fromRGB(170, 85, 0)
+set.Position = UDim2.new(0.332622916, 0, 0.239999995, 0)
+set.Size = UDim2.new(0, 80, 0, 22)
+set.Font = Enum.Font.Nunito
+set.Text = "Set"
+set.TextColor3 = Color3.fromRGB(255, 255, 255)
+set.TextScaled = true
+set.TextSize = 14.000
+set.TextWrapped = true
+
+UICorner_10.Parent = set
+
+auto.Name = "auto"
+auto.Parent = settingsFrame
+auto.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+auto.Position = UDim2.new(-0.00300003053, 0, 0.300000012, 0)
+auto.Size = UDim2.new(0, 157, 0, 17)
+auto.Font = Enum.Font.SourceSans
+auto.Text = "Auto Execute"
+auto.TextColor3 = Color3.fromRGB(255, 255, 255)
+auto.TextScaled = true
+auto.TextSize = 14.000
+auto.TextWrapped = true
+
+UICorner_11.Parent = auto
+
+autoN.Name = "autoN"
+autoN.Parent = settingsFrame
+autoN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autoN.Position = UDim2.new(0.656762302, 0, 0.298080027, 0)
+autoN.Size = UDim2.new(0, 75, 0, 22)
+autoN.Font = Enum.Font.SourceSans
+autoN.Text = "OFF"
+autoN.TextColor3 = Color3.fromRGB(0, 0, 0)
+autoN.TextScaled = true
+autoN.TextSize = 14.000
+autoN.TextWrapped = true
+
+UICorner_12.Parent = autoN
+
+stringsFrame.Name = "stringsFrame"
+stringsFrame.Parent = Scripted
+stringsFrame.Active = true
+stringsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+stringsFrame.BorderSizePixel = 0
+stringsFrame.Position = UDim2.new(0.389999986, 0, 0.136000007, 0)
+stringsFrame.Size = UDim2.new(0, 244, 0, 216)
+stringsFrame.Visible = false
+stringsFrame.ScrollBarThickness = 0
+
+UIGridLayout.Parent = stringsFrame
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 55, 0, 55)
+
+bedwars.Name = "bedwars"
+bedwars.Parent = stringsFrame
+bedwars.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+bedwars.Size = UDim2.new(0, 200, 0, 50)
+bedwars.Font = Enum.Font.Oswald
+bedwars.Text = "Bed wars"
+bedwars.TextColor3 = Color3.fromRGB(255, 255, 255)
+bedwars.TextScaled = true
+bedwars.TextSize = 14.000
+bedwars.TextWrapped = true
+
+UICorner_13.Parent = bedwars
+
+amongUs.Name = "amongUs"
+amongUs.Parent = stringsFrame
+amongUs.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+amongUs.Size = UDim2.new(0, 200, 0, 50)
+amongUs.Font = Enum.Font.Oswald
+amongUs.Text = "among us"
+amongUs.TextColor3 = Color3.fromRGB(255, 255, 255)
+amongUs.TextScaled = true
+amongUs.TextSize = 14.000
+amongUs.TextWrapped = true
+
+UICorner_14.Parent = amongUs
+
+RemoteSpy.Name = "RemoteSpy"
+RemoteSpy.Parent = stringsFrame
+RemoteSpy.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+RemoteSpy.Size = UDim2.new(0, 200, 0, 50)
+RemoteSpy.Font = Enum.Font.Oswald
+RemoteSpy.Text = "Remote Spy"
+RemoteSpy.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoteSpy.TextScaled = true
+RemoteSpy.TextSize = 14.000
+RemoteSpy.TextWrapped = true
+
+UICorner_15.Parent = RemoteSpy
+
+stealTime.Name = "stealTime"
+stealTime.Parent = stringsFrame
+stealTime.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+stealTime.Size = UDim2.new(0, 200, 0, 50)
+stealTime.Font = Enum.Font.Oswald
+stealTime.Text = "Steal Time"
+stealTime.TextColor3 = Color3.fromRGB(255, 255, 255)
+stealTime.TextScaled = true
+stealTime.TextSize = 14.000
+stealTime.TextWrapped = true
+
+UICorner_16.Parent = stealTime
+
+bloxBurg.Name = "bloxBurg"
+bloxBurg.Parent = stringsFrame
+bloxBurg.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+bloxBurg.Size = UDim2.new(0, 200, 0, 50)
+bloxBurg.Font = Enum.Font.Oswald
+bloxBurg.Text = "Blox Burg"
+bloxBurg.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxBurg.TextScaled = true
+bloxBurg.TextSize = 14.000
+bloxBurg.TextWrapped = true
+
+UICorner_17.Parent = bloxBurg
+
+bloxFruit.Name = "bloxFruit"
+bloxFruit.Parent = stringsFrame
+bloxFruit.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+bloxFruit.Size = UDim2.new(0, 200, 0, 50)
+bloxFruit.Font = Enum.Font.Oswald
+bloxFruit.Text = "Blox Fruit"
+bloxFruit.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxFruit.TextScaled = true
+bloxFruit.TextSize = 14.000
+bloxFruit.TextWrapped = true
+
+UICorner_18.Parent = bloxFruit
+
+jailBreak.Name = "jailBreak"
+jailBreak.Parent = stringsFrame
+jailBreak.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+jailBreak.Size = UDim2.new(0, 200, 0, 50)
+jailBreak.Font = Enum.Font.Oswald
+jailBreak.Text = "Jail Break"
+jailBreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+jailBreak.TextScaled = true
+jailBreak.TextSize = 14.000
+jailBreak.TextWrapped = true
+
+UICorner_19.Parent = jailBreak
+
+ninjaparkour.Name = "ninjaparkour"
+ninjaparkour.Parent = stringsFrame
+ninjaparkour.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+ninjaparkour.Size = UDim2.new(0, 200, 0, 50)
+ninjaparkour.Font = Enum.Font.Oswald
+ninjaparkour.Text = "Be A Ninja Parkour"
+ninjaparkour.TextColor3 = Color3.fromRGB(255, 255, 255)
+ninjaparkour.TextScaled = true
+ninjaparkour.TextSize = 14.000
+ninjaparkour.TextWrapped = true
+
+UICorner_20.Parent = ninjaparkour
+
+buildAboat.Name = "buildAboat"
+buildAboat.Parent = stringsFrame
+buildAboat.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+buildAboat.Size = UDim2.new(0, 200, 0, 50)
+buildAboat.Font = Enum.Font.Oswald
+buildAboat.Text = "Build A Boat For A Treasure"
+buildAboat.TextColor3 = Color3.fromRGB(255, 255, 255)
+buildAboat.TextScaled = true
+buildAboat.TextSize = 14.000
+buildAboat.TextWrapped = true
+
+UICorner_21.Parent = buildAboat
+
+animeFighter.Name = "animeFighter"
+animeFighter.Parent = stringsFrame
+animeFighter.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+animeFighter.Size = UDim2.new(0, 200, 0, 50)
+animeFighter.Font = Enum.Font.Oswald
+animeFighter.Text = "Anime Fighters"
+animeFighter.TextColor3 = Color3.fromRGB(255, 255, 255)
+animeFighter.TextScaled = true
+animeFighter.TextSize = 14.000
+animeFighter.TextWrapped = true
+
+UICorner_22.Parent = animeFighter
+
+outputsFrame.Name = "outputsFrame"
+outputsFrame.Parent = Scripted
+outputsFrame.Active = true
+outputsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+outputsFrame.BorderSizePixel = 0
+outputsFrame.Position = UDim2.new(0.389999986, 0, 0.136000007, 0)
+outputsFrame.Size = UDim2.new(0, 244, 0, 216)
+outputsFrame.Visible = false
+outputsFrame.ScrollBarThickness = 0
+
+buttons.Name = "buttons"
+buttons.Parent = Scripted
+buttons.Active = true
+buttons.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buttons.BorderSizePixel = 0
+buttons.Position = UDim2.new(0.0199999996, 0, 0.136000007, 0)
+buttons.Size = UDim2.new(0, 148, 0, 216)
+buttons.ScrollBarThickness = 0
+
+UIListLayout.Parent = buttons
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 8)
+
+player.Name = "player"
+player.Parent = buttons
+player.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+player.Position = UDim2.new(0.0199999996, 0, 0.136000007, 0)
+player.Size = UDim2.new(0, 140, 0, 27)
+player.Font = Enum.Font.SourceSans
+player.Text = "Player"
+player.TextColor3 = Color3.fromRGB(255, 255, 255)
+player.TextScaled = true
+player.TextSize = 14.000
+player.TextWrapped = true
+
+UICorner_23.Parent = player
+
+settings.Name = "settings"
+settings.Parent = buttons
+settings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+settings.Position = UDim2.new(0.0199999996, 0, 0.276000023, 0)
+settings.Size = UDim2.new(0, 140, 0, 27)
+settings.Font = Enum.Font.SourceSans
+settings.Text = "Settings"
+settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+settings.TextScaled = true
+settings.TextSize = 14.000
+settings.TextWrapped = true
+
+UICorner_24.Parent = settings
+
+strings.Name = "strings"
+strings.Parent = buttons
+strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+strings.Position = UDim2.new(0.0199999996, 0, 0.420000017, 0)
+strings.Size = UDim2.new(0, 140, 0, 27)
+strings.Font = Enum.Font.SourceSans
+strings.Text = "Strings"
+strings.TextColor3 = Color3.fromRGB(255, 255, 255)
+strings.TextScaled = true
+strings.TextSize = 14.000
+strings.TextWrapped = true
+
+UICorner_25.Parent = strings
+
+outputs.Name = "outputs"
+outputs.Parent = buttons
+outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+outputs.Position = UDim2.new(0.0199999996, 0, 0.568000019, 0)
+outputs.Size = UDim2.new(0, 140, 0, 27)
+outputs.Font = Enum.Font.SourceSans
+outputs.Text = "Outputs"
+outputs.TextColor3 = Color3.fromRGB(255, 255, 255)
+outputs.TextScaled = true
+outputs.TextSize = 14.000
+outputs.TextWrapped = true
+
+UICorner_26.Parent = outputs
+
+teleports.Name = "teleports"
+teleports.Parent = buttons
+teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+teleports.Position = UDim2.new(0.0199999996, 0, 0.420000017, 0)
+teleports.Size = UDim2.new(0, 140, 0, 27)
+teleports.Font = Enum.Font.SourceSans
+teleports.Text = "Teleports"
+teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
+teleports.TextScaled = true
+teleports.TextSize = 14.000
+teleports.TextWrapped = true
+
+UICorner_27.Parent = teleports
+
+background.Name = "background"
+background.Parent = Scripted
+background.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+background.Position = UDim2.new(0.389999986, 0, 0.136000007, 0)
+background.Size = UDim2.new(0, 244, 0, 216)
+
+UICorner_28.Parent = background
+
+textMaking.Name = "textMaking"
+textMaking.Parent = Scripted
+textMaking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textMaking.BackgroundTransparency = 1.000
+textMaking.BorderColor3 = Color3.fromRGB(27, 42, 53)
+textMaking.Position = UDim2.new(0.5, 0, 0, 0)
+textMaking.Size = UDim2.new(0, 156, 0, 29)
+textMaking.Font = Enum.Font.SourceSans
+textMaking.Text = ""
+textMaking.TextColor3 = Color3.fromRGB(255, 255, 255)
+textMaking.TextScaled = true
+textMaking.TextSize = 14.000
+textMaking.TextWrapped = true
+
+TextTitle.Name = "TextTitle"
+TextTitle.Parent = Scripted
+TextTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextTitle.BackgroundTransparency = 1.000
+TextTitle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextTitle.Position = UDim2.new(0, 0, -0.00800000038, 0)
+TextTitle.Size = UDim2.new(0, 156, 0, 31)
+TextTitle.Font = Enum.Font.SourceSans
+TextTitle.Text = "MrBaconScripted"
+TextTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextTitle.TextScaled = true
+TextTitle.TextSize = 14.000
+TextTitle.TextWrapped = true
+
+rainBow.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.07, Color3.fromRGB(255, 0, 145)), ColorSequenceKeypoint.new(0.16, Color3.fromRGB(255, 0, 243)), ColorSequenceKeypoint.new(0.27, Color3.fromRGB(29, 0, 255)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(0, 255, 247)), ColorSequenceKeypoint.new(0.46, Color3.fromRGB(17, 255, 0)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(251, 255, 0)), ColorSequenceKeypoint.new(0.69, Color3.fromRGB(255, 170, 0)), ColorSequenceKeypoint.new(0.83, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+rainBow.Name = "rainBow"
+rainBow.Parent = TextTitle
+
+teleportsFrame.Name = "teleportsFrame"
+teleportsFrame.Parent = Scripted
+teleportsFrame.Active = true
+teleportsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+teleportsFrame.BorderSizePixel = 0
+teleportsFrame.Position = UDim2.new(0.389999986, 0, 0.136000007, 0)
+teleportsFrame.Size = UDim2.new(0, 244, 0, 216)
+teleportsFrame.Visible = false
+teleportsFrame.ScrollBarThickness = 0
+
+Title.Name = "Title"
+Title.Parent = MrBaconScripted
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.Position = UDim2.new(-0.200000003, 0, 0.344000012, 0)
+Title.Size = UDim2.new(0, 100, 0, 100)
+Title.Font = Enum.Font.Roboto
+Title.Text = "Scripted"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UICorner_29.Parent = Title
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.09, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.19, Color3.fromRGB(255, 0, 166)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(255, 0, 243)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(0, 251, 255)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(38, 255, 0)), ColorSequenceKeypoint.new(0.66, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(0.74, Color3.fromRGB(243, 255, 0)), ColorSequenceKeypoint.new(0.81, Color3.fromRGB(255, 191, 0)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 180)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = MrBaconScripted
+
+-- Scripts:
+
+local function QAJFU_fake_script() -- MrBaconScripted.configure 
+	local script = Instance.new('LocalScript', MrBaconScripted)
+
+	script.Parent.Scripted.Visible = false
+	local ts = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(1,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut.Value)
+	local properties = {
+		Rotation = 360,
+		TextTransparency = 1,
+		BackgroundTransparency = 1,
+		Visible = false
+	}
+	
+	local introID = Instance.new("Sound")
+	introID.Parent = script.Parent.Scripted
+	introID.SoundId = "rbxassetid://1847772079"
+	local create = ts:Create(script.Parent.Title,tweenInfo,properties)
+	local scripted = script.Parent.Scripted
+	
+	wait(1)
+	script.Parent.Title:TweenPosition(UDim2.new(0.435,0,0.39,0),"Out","Sine",1)
+	introID:Play()
+	wait(1.5)
+	script.Parent.UIGradient.Parent = script.Parent.Title
+	local thing = script.Parent.Title
+	local uiGradient = thing:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
+	local tween = tweenService:Create(uiGradient, TweenInfo.new(5, Enum.EasingStyle.Linear), {Offset = Vector2.new(-5, 0)})
+	tween:Play()
+	wait(1)
+	uiGradient.Offset = Vector2.new(10, 0)
+	wait(1)
+	create:Play()
+	wait(1)
+	scripted.Size = UDim2.new(0, 100,0, 100)
+	scripted.Visible = true
+	scripted:TweenSize(UDim2.new(0, 400,0, 250),"In","Sine",1)
+	wait(1)
+	introID:Destroy()
+	
+	scripted.Draggable = true
+	scripted.ZIndex = 50
+	
+	local soundtrack1 = Instance.new("Sound")
+	local soundtrack2 = Instance.new("Sound")
+	local soundtrack3 = Instance.new("Sound")
+	soundtrack1.Name = "sound1"
+	soundtrack2.Name = "sound2"
+	soundtrack3.Name = "sound3"
+	soundtrack1.Parent = scripted
+	soundtrack2.Parent = scripted
+	soundtrack3.Parent = scripted
+	soundtrack1.SoundId = "rbxassetid://6228337171"
+	soundtrack2.SoundId = "rbxassetid://5852470908"
+	local valueOFn = Instance.new("BoolValue")
+	valueOFn.Parent = scripted.settingsFrame
+	local autoFn = Instance.new("BoolValue")
+	autoFn.Name = "autoFn"
+	autoFn.Parent = scripted.settingsFrame
+	scripted.settingsFrame.turns.MouseButton1Click:Connect(function()
+		if autoFn.Value == false then
+			scripted.settingsFrame.autoN.Text = "OFF"
+		end
+		if autoFn.Value == true then
+			scripted.settingsFrame.autoN.Text = "ON"
+		end
+		local value = scripted.settingsFrame.Value
+		value = not value
+	end)
+	scripted.settingsFrame.auto.MouseButton1Click:Connect(function()
+		local autoValue = scripted.settingsFrame.autoFn
+		autoValue.Value = not autoValue.Value
+		if autoFn.Value == true then
+			if autoFn.Value == false then
+				scripted.settingsFrame.autoN.Text = "OFF"
+			end
+			if autoFn.Value == true then
+				scripted.settingsFrame.autoN.Text = "ON"
+			end
+		end
+	end)
+	valueOFn.Changed:Connect(function()
+		if valueOFn.Value == false then
+			scripted.settingsFrame.textTurned.Text = "OFF"
+		end
+		if valueOFn.Value == true then
+			scripted.settingsFrame.textTurned.Text = "ON"
+		end
+	end)
+	autoFn.Changed:Connect(function()
+		if autoFn.Value == false then
+			scripted.settingsFrame.autoN.Text = "OFF"
+		end
+		if autoFn.Value == true then
+			scripted.settingsFrame.autoN.Text = "ON"
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/autoExecute'))
+		end
+	end)
+	local UIS = game:GetService("UserInputService")
+	local kb = scripted.settingsFrame.keybinds
+	kb.Changed:connect(function()
+		kb.Text = kb.Text:sub(1,1):upper()
+	end)
+	local function keybind(input)
+		if string.len(kb.Text) > 0 then
+			if Enum.KeyCode[kb.Text] and input.KeyCode == Enum.KeyCode[kb.Text] then
+				scripted.Visible = not scripted.Visible
+				if valueOFn.Value == false then
+					soundtrack2:Play()
+				end
+				if valueOFn.Value == true then
+					soundtrack3:Play()
+				end
+			end
+		end
+	end
+	UIS.InputBegan:Connect(keybind)
+	scripted.X.MouseButton1Click:Connect(function()
+		if autoFn.Value == false then
+			scripted.settingsFrame.autoN.Text = "OFF"
+		end
+		if autoFn.Value == true then
+			scripted.settingsFrame.autoN.Text = "ON"
+		end
+		scripted.textMaking.Text = "Destroying Gui"
+		wait(2)
+		script.Parent.Parent.MrBaconScripted:Destroy()
+	end)
+	local thing = scripted.TextTitle
+	local uiGradient = thing:WaitForChild("rainBow")
+	local tweenService = game:GetService("TweenService")
+	scripted.settingsFrame.set.MouseButton1Click:Connect(function()
+		scripted.Transparency = scripted.settingsFrame.transparent.Text
+		scripted.buttons.Transparency = scripted.settingsFrame.transparent.Text
+		scripted.playerFrame.Transparency = scripted.settingsFrame.transparent.Text
+		scripted.settingsFrame.Transparency = scripted.settingsFrame.transparent.Text
+		scripted.stringsFrame.Transparency = scripted.settingsFrame.transparent.Text
+		scripted.outputsFrame.Transparency = scripted.settingsFrame.transparent.Text
+		scripted.teleportsFrame.Transparency = scripted.settingsFrame.transparent.Text
+		scripted.background.Transparency = scripted.settingsFrame.transparent.Text
+	end)
+	scripted.buttons.player.MouseButton1Click:Connect(function()
+		scripted.textMaking.Text = "Info"
+		scripted.background.Visible = false
+		scripted.playerFrame.Visible = true
+		scripted.settingsFrame.Visible = false
+		scripted.stringsFrame.Visible = false
+		scripted.outputsFrame.Visible = false
+		scripted.teleportsFrame.Visible = false
+		scripted.buttons.player.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		scripted.buttons.settings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+	end)
+	scripted.buttons.settings.MouseButton1Click:Connect(function()
+		scripted.textMaking.Text = "Gui Settings"
+		scripted.background.Visible = false
+		scripted.playerFrame.Visible = false
+		scripted.settingsFrame.Visible = true
+		scripted.stringsFrame.Visible = false
+		scripted.outputsFrame.Visible = false
+		scripted.teleportsFrame.Visible = false
+		scripted.buttons.player.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.settings.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+	end)
+	scripted.settingsFrame.turns.MouseButton1Click:Connect(function()
+		valueOFn.Value = not valueOFn.Value
+	end)
+	scripted.buttons.strings.MouseButton1Click:Connect(function()
+		scripted.textMaking.Text = "Strings Exploits"
+		scripted.background.Visible = false
+		scripted.playerFrame.Visible = false
+		scripted.settingsFrame.Visible = false
+		scripted.stringsFrame.Visible = true
+		scripted.outputsFrame.Visible = false
+		scripted.teleportsFrame.Visible = false
+		scripted.buttons.player.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.settings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+	end)
+	scripted.buttons.outputs.MouseButton1Click:Connect(function()
+		scripted.textMaking.Text = "game and gui outputs"
+		scripted.background.Visible = false
+		scripted.playerFrame.Visible = false
+		scripted.settingsFrame.Visible = false
+		scripted.stringsFrame.Visible = false
+		scripted.outputsFrame.Visible = true
+		scripted.teleportsFrame.Visible = false
+		scripted.buttons.player.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.settings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+	end)
+	scripted.buttons.teleports.MouseButton1Click:Connect(function()
+		scripted.textMaking.Text = "Teleports Game"
+		scripted.background.Visible = false
+		scripted.playerFrame.Visible = false
+		scripted.settingsFrame.Visible = false
+		scripted.stringsFrame.Visible = false
+		scripted.outputsFrame.Visible = false
+		scripted.teleportsFrame.Visible = true
+		scripted.buttons.player.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.settings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+	end)
+	scripted.stringsFrame.amongUs.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.amongUs.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet('https://pastebin.com/raw/YhbdBRiw'))()
+	end)
+	scripted.stringsFrame.buildAboat.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.buildAboat.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet('https://pastebin.com/6qa5sGJZ'))()
+	end)
+	scripted.stringsFrame.RemoteSpy.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.RemoteSpy.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet('https://pastebin.com/raw/j4qyW7Ku'))()
+	end)
+	scripted.stringsFrame.ninjaparkour.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.ninjaparkour.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet('https://pastebin.com/raw/CzdR6iTy'))()
+	end)
+	scripted.stringsFrame.bedwars.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.bedwars.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+	scripted.stringsFrame.bloxBurg.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.bloxBurg.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet('https://pastebin.com/raw/t5Tu7ncr'))()
+	end)
+	scripted.stringsFrame.bloxFruit.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.bloxFruit.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+	end)
+	scripted.stringsFrame.stealTime.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.stealTime.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		_G.Dist = 20
+		loadstring(game:HttpGet('https://pastebin.com/raw/FZx4qXUN'))()
+	end)
+	scripted.stringsFrame.jailBreak.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.jailBreak.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+	end)
+	scripted.stringsFrame.animeFighter.MouseButton1Click:Connect(function()
+		scripted.stringsFrame.animeFighter.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua')))()
+	end)
+	local tp = game:GetService("TeleportService")
+	scripted.settingsFrame.rejoin.MouseButton1Click:Connect(function()
+		tp:Teleport(game.PlaceId, game.Players.LocalPlayer)
+	end)
+	scripted.playerFrame.info.Text = "Hello there "..game.Players.LocalPlayer.Name.."'s Thanks For Using MrBaconScripted, There's some future updates coming i guess. anyways thats all."
+	scripted.settingsFrame.enter.MouseButton1Click:Connect(function()
+		soundtrack3.SoundId = "rbxassetid://"..scripted.settingsFrame.soundText.Text
+	end)
+	while true do
+		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+		tween:Play()
+		wait(2)
+		uiGradient.Offset = Vector2.new(1, 0)
+		local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+		tween2:Play()
+		wait(.1)
+	end
+end
+coroutine.wrap(QAJFU_fake_script)()
