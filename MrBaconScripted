@@ -587,7 +587,7 @@ UIGradient.Parent = MrBaconScripted
 
 -- Scripts:
 
-local function QAJFU_fake_script() -- MrBaconScripted.configure 
+local function KJCLN_fake_script() -- MrBaconScripted.configure 
 	local script = Instance.new('LocalScript', MrBaconScripted)
 
 	script.Parent.Scripted.Visible = false
@@ -643,30 +643,13 @@ local function QAJFU_fake_script() -- MrBaconScripted.configure
 	soundtrack2.SoundId = "rbxassetid://5852470908"
 	local valueOFn = Instance.new("BoolValue")
 	valueOFn.Parent = scripted.settingsFrame
-	local autoFn = Instance.new("BoolValue")
-	autoFn.Name = "autoFn"
-	autoFn.Parent = scripted.settingsFrame
 	scripted.settingsFrame.turns.MouseButton1Click:Connect(function()
-		if autoFn.Value == false then
-			scripted.settingsFrame.autoN.Text = "OFF"
-		end
-		if autoFn.Value == true then
-			scripted.settingsFrame.autoN.Text = "ON"
-		end
 		local value = scripted.settingsFrame.Value
 		value = not value
 	end)
 	scripted.settingsFrame.auto.MouseButton1Click:Connect(function()
-		local autoValue = scripted.settingsFrame.autoFn
-		autoValue.Value = not autoValue.Value
-		if autoFn.Value == true then
-			if autoFn.Value == false then
-				scripted.settingsFrame.autoN.Text = "OFF"
-			end
-			if autoFn.Value == true then
-				scripted.settingsFrame.autoN.Text = "ON"
-			end
-		end
+		scripted.settingsFrame.autoN.Text = "ON"
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/autoExecute'))
 	end)
 	valueOFn.Changed:Connect(function()
 		if valueOFn.Value == false then
@@ -674,15 +657,6 @@ local function QAJFU_fake_script() -- MrBaconScripted.configure
 		end
 		if valueOFn.Value == true then
 			scripted.settingsFrame.textTurned.Text = "ON"
-		end
-	end)
-	autoFn.Changed:Connect(function()
-		if autoFn.Value == false then
-			scripted.settingsFrame.autoN.Text = "OFF"
-		end
-		if autoFn.Value == true then
-			scripted.settingsFrame.autoN.Text = "ON"
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/autoExecute'))
 		end
 	end)
 	local UIS = game:GetService("UserInputService")
@@ -705,11 +679,11 @@ local function QAJFU_fake_script() -- MrBaconScripted.configure
 	end
 	UIS.InputBegan:Connect(keybind)
 	scripted.X.MouseButton1Click:Connect(function()
-		if autoFn.Value == false then
-			scripted.settingsFrame.autoN.Text = "OFF"
+		if valueOFn.Value == false then
+			soundtrack2:Play()
 		end
-		if autoFn.Value == true then
-			scripted.settingsFrame.autoN.Text = "ON"
+		if valueOFn.Value == true then
+			soundtrack3:Play()
 		end
 		scripted.textMaking.Text = "Destroying Gui"
 		wait(2)
@@ -719,6 +693,12 @@ local function QAJFU_fake_script() -- MrBaconScripted.configure
 	local uiGradient = thing:WaitForChild("rainBow")
 	local tweenService = game:GetService("TweenService")
 	scripted.settingsFrame.set.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
 		scripted.Transparency = scripted.settingsFrame.transparent.Text
 		scripted.buttons.Transparency = scripted.settingsFrame.transparent.Text
 		scripted.playerFrame.Transparency = scripted.settingsFrame.transparent.Text
@@ -950,4 +930,4 @@ local function QAJFU_fake_script() -- MrBaconScripted.configure
 		wait(.1)
 	end
 end
-coroutine.wrap(QAJFU_fake_script)()
+coroutine.wrap(KJCLN_fake_script)()
