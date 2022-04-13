@@ -1,80 +1,119 @@
---[[
-
-MrBacon Scripted
-
-]]
-
 local MrBaconScripted = Instance.new("ScreenGui")
 local Scripted = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
 local playerFrame = Instance.new("ScrollingFrame")
 local info = Instance.new("TextLabel")
 local X = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
+local UICorner = Instance.new("UICorner")
 local settingsFrame = Instance.new("ScrollingFrame")
 local soundText = Instance.new("TextBox")
-local UICorner_3 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local turns = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local keybinds = Instance.new("TextBox")
-local UICorner_5 = Instance.new("UICorner")
-local enter = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local rejoin = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local textTurned = Instance.new("TextLabel")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local transparent = Instance.new("TextBox")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local set = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local auto = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local autoN = Instance.new("TextLabel")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local auto = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local enter = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 local stringsFrame = Instance.new("ScrollingFrame")
 local UIGridLayout = Instance.new("UIGridLayout")
 local bedwars = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local amongUs = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local RemoteSpy = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local stealTime = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local bloxBurg = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local bloxFruit = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local jailBreak = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local ninjaparkour = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local buildAboat = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local animeFighter = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local outputsFrame = Instance.new("ScrollingFrame")
-local buttons = Instance.new("ScrollingFrame")
-local UIListLayout = Instance.new("UIListLayout")
-local player = Instance.new("TextButton")
+local guiOutput = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local name = Instance.new("TextLabel")
 local UICorner_23 = Instance.new("UICorner")
-local settings = Instance.new("TextButton")
+local outinPut = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local bar = Instance.new("TextLabel")
+local textOut = Instance.new("Frame")
 local UICorner_24 = Instance.new("UICorner")
-local strings = Instance.new("TextButton")
+local exit = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
-local outputs = Instance.new("TextButton")
+local boxText = Instance.new("TextLabel")
+local gameOutput = Instance.new("Frame")
 local UICorner_26 = Instance.new("UICorner")
-local teleports = Instance.new("TextButton")
+local name_2 = Instance.new("TextLabel")
 local UICorner_27 = Instance.new("UICorner")
-local background = Instance.new("Frame")
+local outinPut_2 = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local bar_2 = Instance.new("TextLabel")
+local textOut_2 = Instance.new("Frame")
 local UICorner_28 = Instance.new("UICorner")
+local exit_2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local boxText_2 = Instance.new("TextLabel")
+local buttons = Instance.new("ScrollingFrame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local player = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local settings = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local strings = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local outputs = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local teleports = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local background = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
 local textMaking = Instance.new("TextLabel")
 local TextTitle = Instance.new("TextLabel")
 local rainBow = Instance.new("UIGradient")
 local teleportsFrame = Instance.new("ScrollingFrame")
+local animeFighter_2 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local bedwars_2 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local bloxBurg_2 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local bloxFruit_2 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local buildAboat_2 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local jailBreak_2 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local ninjaparkour_2 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local stealTime_2 = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local amongUs_2 = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local UICorner_45 = Instance.new("UICorner")
+local textput = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_47 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
 
 --Properties:
@@ -90,8 +129,6 @@ Scripted.Active = true
 Scripted.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Scripted.Position = UDim2.new(0.239583328, 0, 0.178021997, 0)
 Scripted.Size = UDim2.new(0, 400, 0, 250)
-
-UICorner.Parent = Scripted
 
 playerFrame.Name = "playerFrame"
 playerFrame.Parent = Scripted
@@ -129,7 +166,7 @@ X.TextScaled = true
 X.TextSize = 14.000
 X.TextWrapped = true
 
-UICorner_2.Parent = X
+UICorner.Parent = X
 
 settingsFrame.Name = "settingsFrame"
 settingsFrame.Parent = Scripted
@@ -154,7 +191,7 @@ soundText.TextScaled = true
 soundText.TextSize = 14.000
 soundText.TextWrapped = true
 
-UICorner_3.Parent = soundText
+UICorner_2.Parent = soundText
 
 turns.Name = "turns"
 turns.Parent = settingsFrame
@@ -168,7 +205,7 @@ turns.TextScaled = true
 turns.TextSize = 14.000
 turns.TextWrapped = true
 
-UICorner_4.Parent = turns
+UICorner_3.Parent = turns
 
 keybinds.Name = "keybinds"
 keybinds.Parent = settingsFrame
@@ -184,21 +221,7 @@ keybinds.TextScaled = true
 keybinds.TextSize = 14.000
 keybinds.TextWrapped = true
 
-UICorner_5.Parent = keybinds
-
-enter.Name = "enter"
-enter.Parent = settingsFrame
-enter.BackgroundColor3 = Color3.fromRGB(85, 170, 0)
-enter.Position = UDim2.new(-0.00344264507, 0, 0.0339999944, 0)
-enter.Size = UDim2.new(0, 80, 0, 22)
-enter.Font = Enum.Font.Nunito
-enter.Text = "Enter"
-enter.TextColor3 = Color3.fromRGB(255, 255, 255)
-enter.TextScaled = true
-enter.TextSize = 14.000
-enter.TextWrapped = true
-
-UICorner_6.Parent = enter
+UICorner_4.Parent = keybinds
 
 rejoin.Name = "rejoin"
 rejoin.Parent = settingsFrame
@@ -212,7 +235,7 @@ rejoin.TextScaled = true
 rejoin.TextSize = 14.000
 rejoin.TextWrapped = true
 
-UICorner_7.Parent = rejoin
+UICorner_5.Parent = rejoin
 
 textTurned.Name = "textTurned"
 textTurned.Parent = settingsFrame
@@ -226,7 +249,7 @@ textTurned.TextScaled = true
 textTurned.TextSize = 14.000
 textTurned.TextWrapped = true
 
-UICorner_8.Parent = textTurned
+UICorner_6.Parent = textTurned
 
 transparent.Name = "transparent"
 transparent.Parent = settingsFrame
@@ -242,7 +265,7 @@ transparent.TextScaled = true
 transparent.TextSize = 14.000
 transparent.TextWrapped = true
 
-UICorner_9.Parent = transparent
+UICorner_7.Parent = transparent
 
 set.Name = "set"
 set.Parent = settingsFrame
@@ -256,21 +279,7 @@ set.TextScaled = true
 set.TextSize = 14.000
 set.TextWrapped = true
 
-UICorner_10.Parent = set
-
-auto.Name = "auto"
-auto.Parent = settingsFrame
-auto.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
-auto.Position = UDim2.new(-0.00300003053, 0, 0.300000012, 0)
-auto.Size = UDim2.new(0, 157, 0, 17)
-auto.Font = Enum.Font.SourceSans
-auto.Text = "Auto Execute"
-auto.TextColor3 = Color3.fromRGB(255, 255, 255)
-auto.TextScaled = true
-auto.TextSize = 14.000
-auto.TextWrapped = true
-
-UICorner_11.Parent = auto
+UICorner_8.Parent = set
 
 autoN.Name = "autoN"
 autoN.Parent = settingsFrame
@@ -284,7 +293,35 @@ autoN.TextScaled = true
 autoN.TextSize = 14.000
 autoN.TextWrapped = true
 
-UICorner_12.Parent = autoN
+UICorner_9.Parent = autoN
+
+auto.Name = "auto"
+auto.Parent = settingsFrame
+auto.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+auto.Position = UDim2.new(-0.00300003053, 0, 0.300000012, 0)
+auto.Size = UDim2.new(0, 157, 0, 17)
+auto.Font = Enum.Font.SourceSans
+auto.Text = "Load Game String"
+auto.TextColor3 = Color3.fromRGB(255, 255, 255)
+auto.TextScaled = true
+auto.TextSize = 14.000
+auto.TextWrapped = true
+
+UICorner_10.Parent = auto
+
+enter.Name = "enter"
+enter.Parent = settingsFrame
+enter.BackgroundColor3 = Color3.fromRGB(85, 170, 0)
+enter.Position = UDim2.new(-0.00344264507, 0, 0.0339999944, 0)
+enter.Size = UDim2.new(0, 80, 0, 22)
+enter.Font = Enum.Font.Nunito
+enter.Text = "Enter"
+enter.TextColor3 = Color3.fromRGB(255, 255, 255)
+enter.TextScaled = true
+enter.TextSize = 14.000
+enter.TextWrapped = true
+
+UICorner_11.Parent = enter
 
 stringsFrame.Name = "stringsFrame"
 stringsFrame.Parent = Scripted
@@ -312,7 +349,7 @@ bedwars.TextScaled = true
 bedwars.TextSize = 14.000
 bedwars.TextWrapped = true
 
-UICorner_13.Parent = bedwars
+UICorner_12.Parent = bedwars
 
 amongUs.Name = "amongUs"
 amongUs.Parent = stringsFrame
@@ -325,7 +362,7 @@ amongUs.TextScaled = true
 amongUs.TextSize = 14.000
 amongUs.TextWrapped = true
 
-UICorner_14.Parent = amongUs
+UICorner_13.Parent = amongUs
 
 RemoteSpy.Name = "RemoteSpy"
 RemoteSpy.Parent = stringsFrame
@@ -338,7 +375,7 @@ RemoteSpy.TextScaled = true
 RemoteSpy.TextSize = 14.000
 RemoteSpy.TextWrapped = true
 
-UICorner_15.Parent = RemoteSpy
+UICorner_14.Parent = RemoteSpy
 
 stealTime.Name = "stealTime"
 stealTime.Parent = stringsFrame
@@ -351,7 +388,7 @@ stealTime.TextScaled = true
 stealTime.TextSize = 14.000
 stealTime.TextWrapped = true
 
-UICorner_16.Parent = stealTime
+UICorner_15.Parent = stealTime
 
 bloxBurg.Name = "bloxBurg"
 bloxBurg.Parent = stringsFrame
@@ -364,7 +401,7 @@ bloxBurg.TextScaled = true
 bloxBurg.TextSize = 14.000
 bloxBurg.TextWrapped = true
 
-UICorner_17.Parent = bloxBurg
+UICorner_16.Parent = bloxBurg
 
 bloxFruit.Name = "bloxFruit"
 bloxFruit.Parent = stringsFrame
@@ -377,7 +414,7 @@ bloxFruit.TextScaled = true
 bloxFruit.TextSize = 14.000
 bloxFruit.TextWrapped = true
 
-UICorner_18.Parent = bloxFruit
+UICorner_17.Parent = bloxFruit
 
 jailBreak.Name = "jailBreak"
 jailBreak.Parent = stringsFrame
@@ -390,7 +427,7 @@ jailBreak.TextScaled = true
 jailBreak.TextSize = 14.000
 jailBreak.TextWrapped = true
 
-UICorner_19.Parent = jailBreak
+UICorner_18.Parent = jailBreak
 
 ninjaparkour.Name = "ninjaparkour"
 ninjaparkour.Parent = stringsFrame
@@ -403,7 +440,7 @@ ninjaparkour.TextScaled = true
 ninjaparkour.TextSize = 14.000
 ninjaparkour.TextWrapped = true
 
-UICorner_20.Parent = ninjaparkour
+UICorner_19.Parent = ninjaparkour
 
 buildAboat.Name = "buildAboat"
 buildAboat.Parent = stringsFrame
@@ -416,7 +453,7 @@ buildAboat.TextScaled = true
 buildAboat.TextSize = 14.000
 buildAboat.TextWrapped = true
 
-UICorner_21.Parent = buildAboat
+UICorner_20.Parent = buildAboat
 
 animeFighter.Name = "animeFighter"
 animeFighter.Parent = stringsFrame
@@ -429,7 +466,7 @@ animeFighter.TextScaled = true
 animeFighter.TextSize = 14.000
 animeFighter.TextWrapped = true
 
-UICorner_22.Parent = animeFighter
+UICorner_21.Parent = animeFighter
 
 outputsFrame.Name = "outputsFrame"
 outputsFrame.Parent = Scripted
@@ -441,6 +478,168 @@ outputsFrame.Size = UDim2.new(0, 244, 0, 216)
 outputsFrame.Visible = false
 outputsFrame.ScrollBarThickness = 0
 
+guiOutput.Name = "guiOutput"
+guiOutput.Parent = outputsFrame
+guiOutput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guiOutput.BackgroundTransparency = 0.500
+guiOutput.Position = UDim2.new(0.0279508233, 0, 0.581999958, 0)
+guiOutput.Size = UDim2.new(0, 230, 0, 202)
+
+UICorner_22.Parent = guiOutput
+
+name.Name = "name"
+name.Parent = guiOutput
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.Size = UDim2.new(0, 230, 0, 20)
+name.Font = Enum.Font.Oswald
+name.Text = "MrBaconScripted Output"
+name.TextColor3 = Color3.fromRGB(0, 0, 0)
+name.TextScaled = true
+name.TextSize = 14.000
+name.TextWrapped = true
+
+UICorner_23.Parent = name
+
+outinPut.Name = "outinPut"
+outinPut.Parent = guiOutput
+outinPut.Active = true
+outinPut.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+outinPut.BackgroundTransparency = 1.000
+outinPut.Position = UDim2.new(0, 0, 0.138614014, 0)
+outinPut.Size = UDim2.new(0, 209, 0, 174)
+
+UIListLayout.Parent = outinPut
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+bar.Name = "bar"
+bar.Parent = guiOutput
+bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bar.Position = UDim2.new(0.908260882, 0, 0.100435644, 0)
+bar.Size = UDim2.new(0, 0, 0, 182)
+bar.Font = Enum.Font.SourceSans
+bar.Text = ""
+bar.TextColor3 = Color3.fromRGB(0, 0, 0)
+bar.TextSize = 14.000
+
+textOut.Name = "textOut"
+textOut.Parent = guiOutput
+textOut.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+textOut.Position = UDim2.new(0, 0, 0.0990099013, 0)
+textOut.Size = UDim2.new(0, 230, 0, 182)
+textOut.Visible = false
+
+UICorner_24.Parent = textOut
+
+exit.Name = "exit"
+exit.Parent = textOut
+exit.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+exit.Position = UDim2.new(0.860869586, 0, 0, 0)
+exit.Size = UDim2.new(0, 32, 0, 35)
+exit.Font = Enum.Font.SourceSans
+exit.Text = "X"
+exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exit.TextScaled = true
+exit.TextSize = 14.000
+exit.TextWrapped = true
+
+UICorner_25.Parent = exit
+
+boxText.Name = "boxText"
+boxText.Parent = textOut
+boxText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boxText.BackgroundTransparency = 1.000
+boxText.Position = UDim2.new(0, 0, 0.214285716, 0)
+boxText.Size = UDim2.new(0, 230, 0, 143)
+boxText.Font = Enum.Font.SourceSans
+boxText.Text = ""
+boxText.TextColor3 = Color3.fromRGB(255, 255, 127)
+boxText.TextScaled = true
+boxText.TextSize = 14.000
+boxText.TextWrapped = true
+
+gameOutput.Name = "gameOutput"
+gameOutput.Parent = outputsFrame
+gameOutput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gameOutput.BackgroundTransparency = 0.500
+gameOutput.Position = UDim2.new(0.0279508233, 0, 0.0139999986, 0)
+gameOutput.Size = UDim2.new(0, 230, 0, 202)
+
+UICorner_26.Parent = gameOutput
+
+name_2.Name = "name"
+name_2.Parent = gameOutput
+name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_2.Size = UDim2.new(0, 230, 0, 20)
+name_2.Font = Enum.Font.Oswald
+name_2.Text = "Game Output"
+name_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+name_2.TextScaled = true
+name_2.TextSize = 14.000
+name_2.TextWrapped = true
+
+UICorner_27.Parent = name_2
+
+outinPut_2.Name = "outinPut"
+outinPut_2.Parent = gameOutput
+outinPut_2.Active = true
+outinPut_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+outinPut_2.BackgroundTransparency = 1.000
+outinPut_2.Position = UDim2.new(0, 0, 0.138613865, 0)
+outinPut_2.Size = UDim2.new(0, 209, 0, 174)
+
+UIListLayout_2.Parent = outinPut_2
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 5)
+
+bar_2.Name = "bar"
+bar_2.Parent = gameOutput
+bar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bar_2.Position = UDim2.new(0.908260882, 0, 0.100435644, 0)
+bar_2.Size = UDim2.new(0, 0, 0, 182)
+bar_2.Font = Enum.Font.SourceSans
+bar_2.Text = ""
+bar_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+bar_2.TextSize = 14.000
+
+textOut_2.Name = "textOut"
+textOut_2.Parent = gameOutput
+textOut_2.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+textOut_2.Position = UDim2.new(0, 0, 0.0990099013, 0)
+textOut_2.Size = UDim2.new(0, 230, 0, 182)
+textOut_2.Visible = false
+
+UICorner_28.Parent = textOut_2
+
+exit_2.Name = "exit"
+exit_2.Parent = textOut_2
+exit_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+exit_2.Position = UDim2.new(0.860869586, 0, 0, 0)
+exit_2.Size = UDim2.new(0, 32, 0, 35)
+exit_2.Font = Enum.Font.SourceSans
+exit_2.Text = "X"
+exit_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+exit_2.TextScaled = true
+exit_2.TextSize = 14.000
+exit_2.TextWrapped = true
+
+UICorner_29.Parent = exit_2
+
+boxText_2.Name = "boxText"
+boxText_2.Parent = textOut_2
+boxText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boxText_2.BackgroundTransparency = 1.000
+boxText_2.Position = UDim2.new(0, 0, 0.214285716, 0)
+boxText_2.Size = UDim2.new(0, 230, 0, 143)
+boxText_2.Font = Enum.Font.SourceSans
+boxText_2.Text = ""
+boxText_2.TextColor3 = Color3.fromRGB(255, 255, 127)
+boxText_2.TextScaled = true
+boxText_2.TextSize = 14.000
+boxText_2.TextWrapped = true
+
 buttons.Name = "buttons"
 buttons.Parent = Scripted
 buttons.Active = true
@@ -450,9 +649,9 @@ buttons.Position = UDim2.new(0.0199999996, 0, 0.136000007, 0)
 buttons.Size = UDim2.new(0, 148, 0, 216)
 buttons.ScrollBarThickness = 0
 
-UIListLayout.Parent = buttons
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout.Padding = UDim.new(0, 8)
+UIListLayout_3.Parent = buttons
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 8)
 
 player.Name = "player"
 player.Parent = buttons
@@ -466,7 +665,7 @@ player.TextScaled = true
 player.TextSize = 14.000
 player.TextWrapped = true
 
-UICorner_23.Parent = player
+UICorner_30.Parent = player
 
 settings.Name = "settings"
 settings.Parent = buttons
@@ -480,7 +679,7 @@ settings.TextScaled = true
 settings.TextSize = 14.000
 settings.TextWrapped = true
 
-UICorner_24.Parent = settings
+UICorner_31.Parent = settings
 
 strings.Name = "strings"
 strings.Parent = buttons
@@ -494,7 +693,7 @@ strings.TextScaled = true
 strings.TextSize = 14.000
 strings.TextWrapped = true
 
-UICorner_25.Parent = strings
+UICorner_32.Parent = strings
 
 outputs.Name = "outputs"
 outputs.Parent = buttons
@@ -508,7 +707,7 @@ outputs.TextScaled = true
 outputs.TextSize = 14.000
 outputs.TextWrapped = true
 
-UICorner_26.Parent = outputs
+UICorner_33.Parent = outputs
 
 teleports.Name = "teleports"
 teleports.Parent = buttons
@@ -522,7 +721,7 @@ teleports.TextScaled = true
 teleports.TextSize = 14.000
 teleports.TextWrapped = true
 
-UICorner_27.Parent = teleports
+UICorner_34.Parent = teleports
 
 background.Name = "background"
 background.Parent = Scripted
@@ -530,7 +729,7 @@ background.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 background.Position = UDim2.new(0.389999986, 0, 0.136000007, 0)
 background.Size = UDim2.new(0, 244, 0, 216)
 
-UICorner_28.Parent = background
+UICorner_35.Parent = background
 
 textMaking.Name = "textMaking"
 textMaking.Parent = Scripted
@@ -574,6 +773,145 @@ teleportsFrame.Size = UDim2.new(0, 244, 0, 216)
 teleportsFrame.Visible = false
 teleportsFrame.ScrollBarThickness = 0
 
+animeFighter_2.Name = "animeFighter"
+animeFighter_2.Parent = teleportsFrame
+animeFighter_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+animeFighter_2.Size = UDim2.new(0, 200, 0, 50)
+animeFighter_2.Font = Enum.Font.Oswald
+animeFighter_2.Text = "Anime Fighters"
+animeFighter_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+animeFighter_2.TextScaled = true
+animeFighter_2.TextSize = 14.000
+animeFighter_2.TextWrapped = true
+
+UICorner_36.Parent = animeFighter_2
+
+bedwars_2.Name = "bedwars"
+bedwars_2.Parent = teleportsFrame
+bedwars_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+bedwars_2.Size = UDim2.new(0, 200, 0, 50)
+bedwars_2.Font = Enum.Font.Oswald
+bedwars_2.Text = "Bed wars"
+bedwars_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+bedwars_2.TextScaled = true
+bedwars_2.TextSize = 14.000
+bedwars_2.TextWrapped = true
+
+UICorner_37.Parent = bedwars_2
+
+bloxBurg_2.Name = "bloxBurg"
+bloxBurg_2.Parent = teleportsFrame
+bloxBurg_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+bloxBurg_2.Size = UDim2.new(0, 200, 0, 50)
+bloxBurg_2.Font = Enum.Font.Oswald
+bloxBurg_2.Text = "Blox Burg"
+bloxBurg_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxBurg_2.TextScaled = true
+bloxBurg_2.TextSize = 14.000
+bloxBurg_2.TextWrapped = true
+
+UICorner_38.Parent = bloxBurg_2
+
+bloxFruit_2.Name = "bloxFruit"
+bloxFruit_2.Parent = teleportsFrame
+bloxFruit_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+bloxFruit_2.Size = UDim2.new(0, 200, 0, 50)
+bloxFruit_2.Font = Enum.Font.Oswald
+bloxFruit_2.Text = "Blox Fruit"
+bloxFruit_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxFruit_2.TextScaled = true
+bloxFruit_2.TextSize = 14.000
+bloxFruit_2.TextWrapped = true
+
+UICorner_39.Parent = bloxFruit_2
+
+buildAboat_2.Name = "buildAboat"
+buildAboat_2.Parent = teleportsFrame
+buildAboat_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+buildAboat_2.Size = UDim2.new(0, 200, 0, 50)
+buildAboat_2.Font = Enum.Font.Oswald
+buildAboat_2.Text = "Build A Boat For A Treasure"
+buildAboat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+buildAboat_2.TextScaled = true
+buildAboat_2.TextSize = 14.000
+buildAboat_2.TextWrapped = true
+
+UICorner_40.Parent = buildAboat_2
+
+jailBreak_2.Name = "jailBreak"
+jailBreak_2.Parent = teleportsFrame
+jailBreak_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+jailBreak_2.Size = UDim2.new(0, 200, 0, 50)
+jailBreak_2.Font = Enum.Font.Oswald
+jailBreak_2.Text = "Jail Break"
+jailBreak_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+jailBreak_2.TextScaled = true
+jailBreak_2.TextSize = 14.000
+jailBreak_2.TextWrapped = true
+
+UICorner_41.Parent = jailBreak_2
+
+ninjaparkour_2.Name = "ninjaparkour"
+ninjaparkour_2.Parent = teleportsFrame
+ninjaparkour_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+ninjaparkour_2.Size = UDim2.new(0, 200, 0, 50)
+ninjaparkour_2.Font = Enum.Font.Oswald
+ninjaparkour_2.Text = "Be A Ninja Parkour"
+ninjaparkour_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ninjaparkour_2.TextScaled = true
+ninjaparkour_2.TextSize = 14.000
+ninjaparkour_2.TextWrapped = true
+
+UICorner_42.Parent = ninjaparkour_2
+
+stealTime_2.Name = "stealTime"
+stealTime_2.Parent = teleportsFrame
+stealTime_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+stealTime_2.Size = UDim2.new(0, 200, 0, 50)
+stealTime_2.Font = Enum.Font.Oswald
+stealTime_2.Text = "Steal Time"
+stealTime_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+stealTime_2.TextScaled = true
+stealTime_2.TextSize = 14.000
+stealTime_2.TextWrapped = true
+
+UICorner_43.Parent = stealTime_2
+
+amongUs_2.Name = "amongUs"
+amongUs_2.Parent = teleportsFrame
+amongUs_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+amongUs_2.Size = UDim2.new(0, 200, 0, 50)
+amongUs_2.Font = Enum.Font.Oswald
+amongUs_2.Text = "among us"
+amongUs_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+amongUs_2.TextScaled = true
+amongUs_2.TextSize = 14.000
+amongUs_2.TextWrapped = true
+
+UICorner_44.Parent = amongUs_2
+
+UIGridLayout_2.Parent = teleportsFrame
+UIGridLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellSize = UDim2.new(0, 55, 0, 55)
+
+UICorner_45.Parent = Scripted
+
+textput.Name = "textput"
+textput.Parent = Scripted
+textput.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+textput.Position = UDim2.new(0.467500001, 0, 0.69599998, 0)
+textput.Size = UDim2.new(0, 150, 0, 40)
+textput.Visible = false
+textput.Font = Enum.Font.PatrickHand
+textput.Text = ""
+textput.TextColor3 = Color3.fromRGB(255, 255, 255)
+textput.TextScaled = true
+textput.TextSize = 14.000
+textput.TextWrapped = true
+
+UICorner_46.Parent = textput
+
 Title.Name = "Title"
 Title.Parent = MrBaconScripted
 Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -586,16 +924,20 @@ Title.TextScaled = true
 Title.TextSize = 14.000
 Title.TextWrapped = true
 
-UICorner_29.Parent = Title
+UICorner_47.Parent = Title
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.09, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.19, Color3.fromRGB(255, 0, 166)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(255, 0, 243)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(0, 251, 255)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(38, 255, 0)), ColorSequenceKeypoint.new(0.66, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(0.74, Color3.fromRGB(243, 255, 0)), ColorSequenceKeypoint.new(0.81, Color3.fromRGB(255, 191, 0)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 180)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
 UIGradient.Parent = MrBaconScripted
 
 -- Scripts:
 
-local function EIOOFAY_fake_script() -- MrBaconScripted.configure 
+local function UOPX_fake_script() -- MrBaconScripted.configure 
 	local script = Instance.new('LocalScript', MrBaconScripted)
 
+	game.Players.PlayerAdded:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/MrBaconScripted'))()
+	end)
+	
 	script.Parent.Scripted.Visible = false
 	local ts = game:GetService("TweenService")
 	local tweenInfo = TweenInfo.new(1,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut.Value)
@@ -636,6 +978,7 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 	scripted.Draggable = true
 	scripted.ZIndex = 50
 	
+	local outBox = scripted.textput
 	local soundtrack1 = Instance.new("Sound")
 	local soundtrack2 = Instance.new("Sound")
 	local soundtrack3 = Instance.new("Sound")
@@ -654,10 +997,38 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 	scripted.settingsFrame.turns.MouseButton1Click:Connect(function()
 		local value = scripted.settingsFrame.Value
 		value = not value
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Set Music "..scripted.settingsFrame.textTurned.Text
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 	end)
 	scripted.settingsFrame.auto.MouseButton1Click:Connect(function()
 		local fn = autoFn
 		autoFn.Value = not autoFn.Value
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting String is "..scripted.settingsFrame.autoN.Text
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 	end)
 	autoFn.Changed:Connect(function()
 		if autoFn.Value == false then
@@ -716,11 +1087,39 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 	local kb = scripted.settingsFrame.keybinds
 	kb.Changed:connect(function()
 		kb.Text = kb.Text:sub(1,1):upper()
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Added Keybind"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 	end)
 	local function keybind(input)
 		if string.len(kb.Text) > 0 then
 			if Enum.KeyCode[kb.Text] and input.KeyCode == Enum.KeyCode[kb.Text] then
 				scripted.Visible = not scripted.Visible
+				local outBoxClone = outBox:Clone()
+				outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+				outBoxClone.Text = "Used Keybind"
+				outBoxClone.Visible = true
+				outBoxClone.MouseButton1Click:Connect(function()
+					if valueOFn.Value == false then
+						soundtrack1:Play()
+					end
+					if valueOFn.Value == true then
+						soundtrack3:Play()
+					end
+					scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+					scripted.outputsFrame.guiOutput.textOut.Visible = true
+				end)
 				if valueOFn.Value == false then
 					soundtrack2:Play()
 				end
@@ -738,6 +1137,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Destroying Gui"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		scripted.textMaking.Text = "Destroying Gui"
 		wait(2)
 		script.Parent.Parent.MrBaconScripted:Destroy()
@@ -752,6 +1165,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Set Transparent "..scripted.settingsFrame.transparent.Text
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		scripted.Transparency = scripted.settingsFrame.transparent.Text
 		scripted.buttons.Transparency = scripted.settingsFrame.transparent.Text
 		scripted.playerFrame.Transparency = scripted.settingsFrame.transparent.Text
@@ -774,6 +1201,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Opened Player"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		if valueOFn.Value == false then
 			soundtrack1:Play()
 		end
@@ -794,6 +1235,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Opened Settings"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		if valueOFn.Value == false then
 			soundtrack1:Play()
 		end
@@ -817,6 +1272,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
 		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Opened String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		if valueOFn.Value == false then
 			soundtrack1:Play()
 		end
@@ -825,7 +1294,7 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		end
 	end)
 	scripted.buttons.outputs.MouseButton1Click:Connect(function()
-		scripted.textMaking.Text = "game and gui outputs"
+		scripted.textMaking.Text = "game and scripted outputs"
 		scripted.background.Visible = false
 		scripted.playerFrame.Visible = false
 		scripted.settingsFrame.Visible = false
@@ -837,6 +1306,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
 		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Opened Outputs"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		if valueOFn.Value == false then
 			soundtrack1:Play()
 		end
@@ -857,6 +1340,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		scripted.buttons.strings.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.outputs.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 		scripted.buttons.teleports.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Opened Teleports"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		if valueOFn.Value == false then
 			soundtrack1:Play()
 		end
@@ -872,6 +1369,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting Among Us String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet('https://pastebin.com/raw/YhbdBRiw'))()
 	end)
 	scripted.stringsFrame.buildAboat.MouseButton1Click:Connect(function()
@@ -882,6 +1393,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting Build A Boat String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet('https://pastebin.com/6qa5sGJZ'))()
 	end)
 	scripted.stringsFrame.RemoteSpy.MouseButton1Click:Connect(function()
@@ -892,6 +1417,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting Remote Spy String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet('https://pastebin.com/raw/j4qyW7Ku'))()
 	end)
 	scripted.stringsFrame.ninjaparkour.MouseButton1Click:Connect(function()
@@ -902,6 +1441,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting Ninja Parkour String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet('https://pastebin.com/raw/CzdR6iTy'))()
 	end)
 	scripted.stringsFrame.bedwars.MouseButton1Click:Connect(function()
@@ -912,6 +1465,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting BedWars String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 	end)
 	scripted.stringsFrame.bloxBurg.MouseButton1Click:Connect(function()
@@ -932,6 +1499,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting BloxFruits String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
 	end)
 	scripted.stringsFrame.stealTime.MouseButton1Click:Connect(function()
@@ -942,6 +1523,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting Steal Time String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		_G.Dist = 20
 		loadstring(game:HttpGet('https://pastebin.com/raw/FZx4qXUN'))()
 	end)
@@ -953,6 +1548,20 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting JailBreak String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 	end)
 	scripted.stringsFrame.animeFighter.MouseButton1Click:Connect(function()
@@ -963,15 +1572,311 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		if valueOFn.Value == true then
 			soundtrack3:Play()
 		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Getting Anime Fighter String"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua')))()
 	end)
 	local tp = game:GetService("TeleportService")
+	scripted.teleportsFrame.amongUs.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To Among Us"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.amongUs.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(5721826509, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.jailBreak.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To JailBreak"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.jailBreak.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(606849621, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.bloxBurg.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To BloxBurg"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.bloxBurg.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(185655149, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.bloxFruit.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To BloxFruits"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.bloxFruit.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(2753915549, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.stealTime.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To Steal Time"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.stealTime.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(6361937392, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.ninjaparkour.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To Be A Ninja Parkour"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.ninjaparkour.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(147848991, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.bedwars.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To Bedwars"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.bedwars.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(6872265039, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.buildAboat.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To Build A Boat For A Treasure"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.buildAboat.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(537413528, game.Players.LocalPlayer)
+	end)
+	scripted.teleportsFrame.animeFighter.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack2:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Teleporting To Anime Fighter"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
+		scripted.teleportsFrame.animeFighter.BackgroundColor3 = Color3.fromRGB(231, 50, 50)
+		wait(1)
+		tp:Teleport(6299805723, game.Players.LocalPlayer)
+	end)
 	scripted.settingsFrame.rejoin.MouseButton1Click:Connect(function()
 		tp:Teleport(game.PlaceId, game.Players.LocalPlayer)
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.guiOutput.outinPut
+		outBoxClone.Text = "Rejoining"
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack1:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.guiOutput.textOut.Visible = true
+		end)
 	end)
 	scripted.playerFrame.info.Text = "Hello there "..game.Players.LocalPlayer.Name.."'s Thanks For Using MrBaconScripted, There's some future updates coming i guess. anyways thats all."
 	scripted.settingsFrame.enter.MouseButton1Click:Connect(function()
 		soundtrack3.SoundId = "rbxassetid://"..scripted.settingsFrame.soundText.Text
+	end)
+	scripted.outputsFrame.gameOutput.textOut.exit.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		scripted.outputsFrame.gameOutput.textOut.Visible = false
+	end)
+	scripted.outputsFrame.guiOutput.textOut.exit.MouseButton1Click:Connect(function()
+		if valueOFn.Value == false then
+			soundtrack1:Play()
+		end
+		if valueOFn.Value == true then
+			soundtrack3:Play()
+		end
+		scripted.outputsFrame.guiOutput.textOut.Visible = false
+	end)
+	local outputMessege = game:GetService("LogService")
+	outputMessege.MessageOut:Connect(function(messege)
+		local outBoxClone = outBox:Clone()
+		outBoxClone.Parent = scripted.outputsFrame.gameOutput.outinPut
+		outBoxClone.Text = messege
+		outBoxClone.Visible = true
+		outBoxClone.MouseButton1Click:Connect(function()
+			if valueOFn.Value == false then
+				soundtrack2:Play()
+			end
+			if valueOFn.Value == true then
+				soundtrack3:Play()
+			end
+			scripted.outputsFrame.gameOutput.textOut.boxText.Text = outBoxClone.Text
+			scripted.outputsFrame.gameOutput.textOut.Visible = true
+		end)
+	end)
+	scripted.outputsFrame.gameOutput.outinPut.CanvasSize = UDim2.new(0,0,0,scripted.outputsFrame.gameOutput.outinPut.UIListLayout.AbsoluteContentSize.Y)
+	scripted.outputsFrame.gameOutput.outinPut.ChildAdded:Connect(function()
+		scripted.outputsFrame.gameOutput.outinPut.CanvasSize = UDim2.new(0,0,0,scripted.outputsFrame.gameOutput.outinPut.UIListLayout.AbsoluteContentSize.Y + outBox.Size.Y.Offset + scripted.outputsFrame.gameOutput.outinPut.UIListLayout.Padding.Offset)
+	end)
+	scripted.outputsFrame.guiOutput.outinPut.CanvasSize = UDim2.new(0,0,0,scripted.outputsFrame.guiOutput.outinPut.UIListLayout.AbsoluteContentSize.Y)
+	scripted.outputsFrame.guiOutput.outinPut.ChildAdded:Connect(function()
+		scripted.outputsFrame.guiOutput.outinPut.CanvasSize = UDim2.new(0,0,0,scripted.outputsFrame.guiOutput.outinPut.UIListLayout.AbsoluteContentSize.Y + outBox.Size.Y.Offset + scripted.outputsFrame.guiOutput.outinPut.UIListLayout.Padding.Offset)
 	end)
 	while true do
 		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
@@ -983,4 +1888,4 @@ local function EIOOFAY_fake_script() -- MrBaconScripted.configure
 		wait(.1)
 	end
 end
-coroutine.wrap(EIOOFAY_fake_script)()
+coroutine.wrap(UOPX_fake_script)()
