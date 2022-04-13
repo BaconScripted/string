@@ -1,3 +1,5 @@
+-- MrBaconScripted
+
 local MrBaconScripted = Instance.new("ScreenGui")
 local Scripted = Instance.new("Frame")
 local playerFrame = Instance.new("ScrollingFrame")
@@ -115,6 +117,7 @@ local UICorner_46 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
 local UICorner_47 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
+local GameStrings = Instance.new("TextLabel")
 
 --Properties:
 
@@ -929,14 +932,25 @@ UICorner_47.Parent = Title
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.09, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.19, Color3.fromRGB(255, 0, 166)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(255, 0, 243)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(0, 251, 255)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(38, 255, 0)), ColorSequenceKeypoint.new(0.66, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(0.74, Color3.fromRGB(243, 255, 0)), ColorSequenceKeypoint.new(0.81, Color3.fromRGB(255, 191, 0)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 180)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
 UIGradient.Parent = MrBaconScripted
 
+GameStrings.Name = "GameStrings"
+GameStrings.Parent = MrBaconScripted
+GameStrings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameStrings.Size = UDim2.new(0, 200, 0, 50)
+GameStrings.Visible = false
+GameStrings.Font = Enum.Font.SourceSans
+GameStrings.Text = ""
+GameStrings.TextColor3 = Color3.fromRGB(0, 0, 0)
+GameStrings.TextSize = 14.000
+
 -- Scripts:
 
-local function UOPX_fake_script() -- MrBaconScripted.configure 
+local function KLRHIX_fake_script() -- MrBaconScripted.configure 
 	local script = Instance.new('LocalScript', MrBaconScripted)
 
-	game.Players.PlayerAdded:Connect(function()
+	script.Parent.GameStrings.Text = game.GameId
+	if game.GameId == script.Parent.GameStrings.Text then
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/MrBaconScripted'))()
-	end)
+	end
 	
 	script.Parent.Scripted.Visible = false
 	local ts = game:GetService("TweenService")
@@ -1888,4 +1902,4 @@ local function UOPX_fake_script() -- MrBaconScripted.configure
 		wait(.1)
 	end
 end
-coroutine.wrap(UOPX_fake_script)()
+coroutine.wrap(KLRHIX_fake_script)()
