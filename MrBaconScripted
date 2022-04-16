@@ -1,3 +1,5 @@
+-- updated
+
 local MrBaconScripted = Instance.new("ScreenGui")
 local Scripted = Instance.new("Frame")
 local playerFrame = Instance.new("ScrollingFrame")
@@ -477,7 +479,7 @@ BreakingPoint.Parent = stringsFrame
 BreakingPoint.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
 BreakingPoint.Size = UDim2.new(0, 200, 0, 50)
 BreakingPoint.Font = Enum.Font.Oswald
-BreakingPoint.Text = "Bed wars"
+BreakingPoint.Text = "Breaking Point"
 BreakingPoint.TextColor3 = Color3.fromRGB(255, 255, 255)
 BreakingPoint.TextScaled = true
 BreakingPoint.TextSize = 14.000
@@ -917,7 +919,7 @@ BreakingPoint_2.Parent = teleportsFrame
 BreakingPoint_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
 BreakingPoint_2.Size = UDim2.new(0, 200, 0, 50)
 BreakingPoint_2.Font = Enum.Font.Oswald
-BreakingPoint_2.Text = "Bed wars"
+BreakingPoint_2.Text = "Breaking Point"
 BreakingPoint_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 BreakingPoint_2.TextScaled = true
 BreakingPoint_2.TextSize = 14.000
@@ -961,9 +963,9 @@ UIGradient.Parent = MrBaconScripted
 
 -- Scripts:
 
-local function UTPDBTM_fake_script() -- MrBaconScripted.configure 
+local function ECJF_fake_script() -- MrBaconScripted.configure 
 	local script = Instance.new('LocalScript', MrBaconScripted)
-	
+
 	script.Parent.Scripted.Visible = false
 	local ts = game:GetService("TweenService")
 	local tweenInfo = TweenInfo.new(1,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut.Value)
@@ -1968,4 +1970,4 @@ local function UTPDBTM_fake_script() -- MrBaconScripted.configure
 		wait(.1)
 	end
 end
-coroutine.wrap(UTPDBTM_fake_script)()
+coroutine.wrap(ECJF_fake_script)()
