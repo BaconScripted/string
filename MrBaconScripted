@@ -965,10 +965,6 @@ UIGradient.Parent = MrBaconScripted
 
 local function UTPDBTM_fake_script() -- MrBaconScripted.configure 
 	local script = Instance.new('LocalScript', MrBaconScripted)
-
-	if game:IsLoaded() then
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScripted/string/main/MrBaconScripted'))()
-	end
 	
 	script.Parent.Scripted.Visible = false
 	local ts = game:GetService("TweenService")
