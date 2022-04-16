@@ -1,5 +1,3 @@
--- Instances:
-
 local MrBaconScripted = Instance.new("ScreenGui")
 local Scripted = Instance.new("Frame")
 local playerFrame = Instance.new("ScrollingFrame")
