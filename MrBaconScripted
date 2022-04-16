@@ -1,4 +1,4 @@
--- updated
+-- update today
 
 local MrBaconScripted = Instance.new("ScreenGui")
 local Scripted = Instance.new("Frame")
@@ -963,7 +963,7 @@ UIGradient.Parent = MrBaconScripted
 
 -- Scripts:
 
-local function ECJF_fake_script() -- MrBaconScripted.configure 
+local function BDGQ_fake_script() -- MrBaconScripted.configure 
 	local script = Instance.new('LocalScript', MrBaconScripted)
 
 	script.Parent.Scripted.Visible = false
@@ -1103,8 +1103,8 @@ local function ECJF_fake_script() -- MrBaconScripted.configure
 				loadstring(game:HttpGet(('https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua')))()
 			end
 			-- breaking point
-			if game.Players == 648362523 then
-				loadstring(game:HttpGet('https://raw.githubusercontent.com/tkorra/bp-gui/main/main.lua'))()
+			if game.PlaceId == 648362523 then
+				loadstring(game:GetObjects("rbxassetid://7228968882")[1].Source)()
 			end
 		end
 	end)
@@ -1643,7 +1643,7 @@ local function ECJF_fake_script() -- MrBaconScripted.configure
 			scripted.outputsFrame.guiOutput.textOut.boxText.Text = outBoxClone.Text
 			scripted.outputsFrame.guiOutput.textOut.Visible = true
 		end)
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/tkorra/bp-gui/main/main.lua'))()
+		loadstring(game:GetObjects("rbxassetid://7228968882")[1].Source)()
 	end)
 	local tp = game:GetService("TeleportService")
 	scripted.teleportsFrame.amongUs.MouseButton1Click:Connect(function()
@@ -1970,4 +1970,4 @@ local function ECJF_fake_script() -- MrBaconScripted.configure
 		wait(.1)
 	end
 end
-coroutine.wrap(ECJF_fake_script)()
+coroutine.wrap(BDGQ_fake_script)()
