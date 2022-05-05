@@ -1,0 +1,100 @@
+local cFrame = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local x = Instance.new("TextLabel")
+local y = Instance.new("TextLabel")
+local z = Instance.new("TextLabel")
+local Get = Instance.new("TextButton")
+
+--Properties:
+
+cFrame.Name = "cFrame"
+cFrame.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+cFrame.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Background.Name = "Background"
+Background.Parent = cFrame
+Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background.BackgroundTransparency = 0.500
+Background.Position = UDim2.new(0.03125, 0, 0.177370027, 0)
+Background.Size = UDim2.new(0, 619, 0, 263)
+
+title.Name = "title"
+title.Parent = Background
+title.Active = true
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 0.600
+title.Position = UDim2.new(-0.00131018518, 0, -0.002999875, 0)
+title.Size = UDim2.new(0.452037126, 0, 0.139467686, 0)
+title.Font = Enum.Font.Highway
+title.Text = "Positions"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+x.Name = "x"
+x.Parent = Background
+x.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+x.BackgroundTransparency = 1.000
+x.Position = UDim2.new(0, 0, 0.167300373, 0)
+x.Size = UDim2.new(0, 619, 0, 50)
+x.Text = "X :"
+x.TextColor3 = Color3.fromRGB(255, 255, 127)
+x.TextScaled = true
+x.TextSize = 14.000
+x.TextWrapped = true
+
+y.Name = "y"
+y.Parent = Background
+y.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+y.BackgroundTransparency = 1.000
+y.Position = UDim2.new(0, 0, 0.40304184, 0)
+y.Size = UDim2.new(0, 619, 0, 50)
+y.Text = "Y :"
+y.TextColor3 = Color3.fromRGB(85, 85, 127)
+y.TextScaled = true
+y.TextSize = 14.000
+y.TextWrapped = true
+
+z.Name = "z"
+z.Parent = Background
+z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+z.BackgroundTransparency = 1.000
+z.Position = UDim2.new(0, 0, 0.688212931, 0)
+z.Size = UDim2.new(0, 619, 0, 50)
+z.Text = "Z :"
+z.TextColor3 = Color3.fromRGB(85, 0, 127)
+z.TextScaled = true
+z.TextSize = 14.000
+z.TextWrapped = true
+
+Get.Name = "Get"
+Get.Parent = Background
+Get.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+Get.BackgroundTransparency = 0.600
+Get.Position = UDim2.new(0.450726926, 0, 0, 0)
+Get.Size = UDim2.new(0, 340, 0, 35)
+Get.Font = Enum.Font.Nunito
+Get.Text = "Get  Position"
+Get.TextColor3 = Color3.fromRGB(0, 0, 0)
+Get.TextScaled = true
+Get.TextSize = 14.000
+Get.TextWrapped = true
+
+-- Scripts:
+
+local function AIAJU_fake_script() -- Background.source 
+	local script = Instance.new('LocalScript', Background)
+
+	local plr = game.Players.LocalPlayer
+	local humpart = plr.Character:WaitForChild("HumanoidRootPart")
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+	script.Parent.Get.MouseButton1Click:Connect(function()
+		script.Parent.x.Text = "X : "..tostring(humpart.Position.x)
+		script.Parent.y.Text = "Y : "..tostring(humpart.Position.y)
+		script.Parent.z.Text = "Z : "..tostring(humpart.Position.z)
+	end)
+end
+coroutine.wrap(AIAJU_fake_script)()
